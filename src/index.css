@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Poppins, serif, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #01002F;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+} 
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section{
+  height: 100vh;
+  scroll-snap-align: start;
+  color: white;
+  overflow: hidden;
+}
+
+.faq-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 10rem;
+  background-color: #0075FF;
+  border: #0075FF 4px solid;
+  font-size: 0.7rem;
+}
+
+
+[transition-style="in:wipe:up"] {
+  animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-up both;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 8px;
+  background-color: #01002F; /* or add it to the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0075FF;
+}
