@@ -70,7 +70,7 @@ export const Timeline = () => {
           <motion.div
             layout
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
-            className="absolute md:w-20 w-24 h-6 md:h-8 max-[500px]:w-20 h-bg-transparent border-2 border-solid border-red-700 rounded-2xl"
+            className="absolute md:w-20 w-24 h-8 max-[500px]:w-20 h-bg-transparent border-2 border-solid border-red-700 rounded-2xl"
             style={{ left: `calc(${days.indexOf(day) * (100 / days.length)}% + ${days.indexOf(day) * (0.45)}rem)` }}
           />
           {days.map((d, index) => (
