@@ -18,9 +18,9 @@ function Hero()  {
         <div className="text-5xl md:text-7xl font-extrabold tracking-wide py-5">
           SYNERGY
         </div>
-        <div className="text-xl font-extrabold tracking-wide text-red-700">
+        <div className=" text-base md:text-xl font-extrabold tracking-wide text-red-700 shadow-red-700">
           {/* 25-27 OCT 2024 */}
-          Dates announced soon
+          Dates to be announced soon
         </div>
       </div>
     </BackgroundGradientAnimation>
