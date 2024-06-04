@@ -12,7 +12,7 @@ export default {
         normal: '0',
         wide: '.025em',
         wider: '0.5em',
-        widest: '4.5vw',
+        widest: '4.3vw',
       },
       extend: {
         animation: {
