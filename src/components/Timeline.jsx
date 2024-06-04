@@ -71,7 +71,7 @@ export const Timeline = () => {
             layout
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
             className="absolute md:w-20 w-16 h-6 md:h-8 bg-transparent border-2 border-solid border-red-700 rounded-2xl"
-            style={{ left: `calc(${days.indexOf(day) * (100 / days.length)}% + ${days.indexOf(day) * (0.3)}rem)` }}
+            style={{ left: `calc(${days.indexOf(day) * (100 / days.length)}% + ${days.indexOf(day) * (0.3333333)}rem)` }}
           />
           {days.map((d, index) => (
             <span
