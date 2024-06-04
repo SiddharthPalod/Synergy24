@@ -57,7 +57,7 @@ export const Timeline = () => {
           >
             {images.map((image, index) => (
               <div key={index} onDoubleClick={() => fn(day, index)}>
-                <img key={index} src={image} alt={`Slide ${index}`} className='block md:w-full' loading='lazy' />
+                <img key={index} src={image} alt={`Slide ${index}`} className='block md:w-full items-center' loading='lazy' />
               </div>
             ))}
           </Coverflow>
@@ -66,22 +66,22 @@ export const Timeline = () => {
         <div className="text-5xl md:text-7xl font-extrabold md:tracking-wide py-3 z-50">
           TIMELINE
         </div>
-        <div className="relative text-l md:text-xl font-extrabold tracking-wide text-red-700 flex items-center justify-center gap-3 md:gap-6">
+        <div className="relative text-l md:text-xl font-extrabold tracking-wide text-red-700 flex items-center justify-center gap-3 md:gap-6 max-[500px]:gap-6">
           <motion.div
             layout
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
-            className="absolute md:w-20 w-16 h-6 md:h-8 bg-transparent border-2 border-solid border-red-700 rounded-2xl"
-            style={{ left: `calc(${days.indexOf(day) * (100 / days.length)}% + ${days.indexOf(day) * (0.3)}rem)` }}
+            className="absolute md:w-20 w-24 h-6 md:h-8 max-[500px]:w-20 h-bg-transparent border-2 border-solid border-red-700 rounded-2xl"
+            style={{ left: `calc(${days.indexOf(day) * (100 / days.length)}% + ${days.indexOf(day) * (0.45)}rem)` }}
           />
           {days.map((d, index) => (
-            <span
+            <div
               key={d}
               id={d}
-              className={`cursor-pointer ${day === d ? 'px-2 py-1' : 'px-2 py-1'}`}
+              className={`cursor-pointer px-4 text-xl md:text-lg max-[500px]:px-2 font-extrabold tracking-wide ${day === d ? "text-red-700" : "text-white"}`}
               onClick={handleClick}
             >
               Day {index + 1}
-            </span>
+            </div>
           ))}
         </div>
       </div>
