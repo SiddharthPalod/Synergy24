@@ -6,7 +6,7 @@ import { contact_iiitb, contact_syn} from '../assets';
 function Footer() {
 return (
     <section id='contact' className="h-full" style={{backgroundColor:"#0075FF"}} >
-        <footer className="footer max-md:footer-center md:justify-evenly items-center p-8 bg-none text-white" >
+        <footer className="footer max-md:footer-center md:justify-evenly md:items-center py-4 md:p-8 bg-none text-white" >
         <div className="text-5xl md:hidden block font-extrabold line-clamp-2">
                 Contact Us 
         </div>
