@@ -8,8 +8,7 @@ function Navbar() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               };
 return (
-        <nav className="pt-1 flex font-bold items-center justify-between px-4 fixed top-0 w-full z-50 bg-transparent">
-                
+        <nav className="pt-1 flex font-bold items-center backdrop-blur-sm justify-between px-4 fixed top-0 w-full z-50 bg-transparent">
                 <Link to={'/'} className="flex-none w-40 scroll-smooth" onClick={scrollToTop}>
                         <img src={logo} alt="Logo" />
                 </Link>
@@ -35,7 +34,7 @@ return (
                 </div>
 
 
-                <div className="hidden lg:flex lg:flex-grow lg:items-center backdrop-blur-sm" id="navbarSupportedContent">
+                <div className="hidden lg:flex lg:flex-grow lg:items-center" id="navbarSupportedContent">
                         <ul className="flex flex-col lg:flex-row list-none ml-auto">
                                 {navItems.map((item, index) => (
                                         <li key={index} className={`nav-item`} onClick={() => setActiveTab(index)}>
