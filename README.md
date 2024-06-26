@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 Install Node.js and npm
 Run command
 - npm i --legacy-peer-deps
-- npm run build --legacy-peer-deps (host on server)
+- npm run build (host on server)
 - npm run dev (host locally)
 
 # Legacy Issues
