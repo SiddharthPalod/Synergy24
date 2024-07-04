@@ -14,7 +14,14 @@ export default {
         wider: '0.5em',
         widest: '4.5vw',
       },
+      colors: {
+        "redbg" : "#BF0202",
+        "white" : "#FFFFFF",
+      },
       extend: {
+        backgroundImage: {
+          "event-bg": "url('./src/assets/eventbg.jpg')",
+        },
         animation: {
           first: "moveVertical 30s ease infinite",
           second: "moveInCircle 20s reverse infinite",

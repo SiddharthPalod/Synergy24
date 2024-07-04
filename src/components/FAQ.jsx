@@ -1,26 +1,24 @@
 import React, { useState, useEffect } from 'react';
-import { LazyMotion, domAnimation, motion } from 'framer-motion';
+import { LazyMotion, domAnimation, motion , useScroll , useTransform } from 'framer-motion';
 import { faqData } from '../data/faq';
-
+import Red from './Red';
 function FAQ() {
   const [isVisible, setIsVisible] = useState(false);
   const [selectedQuestion, setSelectedQuestion] = useState(null);
   const [animationKey, setAnimationKey] = useState(Date.now());
 
   useEffect(() => {
-    // Update the key when the component mounts to force the animation to play
     setAnimationKey(Date.now());
-  }, []);
+  });
 
-    const handleMouseEnter = () => {
-        setIsVisible(true);
-    };
-
+  const handleMouseEnter = () => {
+    setIsVisible(true);
+  };
   return (
+    <section className='overflow-hidden'>
     <section className='py-16 flex flex-col items-center justify-center' id='faq' 
-        onMouseEnter={handleMouseEnter}
+      onMouseEnter={handleMouseEnter} onMouseLeave={() => setIsVisible(false)}
     >
-      
       <motion.div 
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
@@ -39,7 +37,7 @@ function FAQ() {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
               key={index}
-              className={`faq-box lg:w-64 hover:bg-black hover:py-0 hover:font-normal md:text-xl lg:p-8 md:p-4 p-1`}
+              className={`faq-box lg:w-64 hover:bg-transparent hover:py-0 hover:font-normal md:text-xl lg:p-8 md:p-4 p-1`}
               onMouseEnter={() => setSelectedQuestion(index)}
               onMouseLeave={() => setSelectedQuestion(null)}
               style={{
@@ -52,6 +50,7 @@ function FAQ() {
           ))}
         </motion.div>
       </LazyMotion>
+    </section>
     </section>
   );
 }

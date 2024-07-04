@@ -6,7 +6,7 @@
   font-family: Poppins, serif, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #01002F;
+  background-color:#010015;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -25,6 +25,11 @@ section{
   scroll-snap-align: start;
   color: white;
   overflow: hidden;
+}
+
+.event {
+  scroll-snap-align: start;
+  color: white;
 }
 
 .faq-box {
@@ -46,9 +51,27 @@ section{
 ::-webkit-scrollbar{
   width: 5px;
   height: 8px;
-  background-color: #01002F; /* or add it to the track */
+  background-color: #010015;
+  ; /* or add it to the track */
 }
 
 ::-webkit-scrollbar-thumb {
   background: #0075FF;
 }
+
+.outlined-text {
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.side {
+  display: grid;
+  height: 100%; /* Set a fixed height for .side */
+  overflow: hidden;
+  place-items: center;
+  position: absolute;
+  width: 100%;
+}
+

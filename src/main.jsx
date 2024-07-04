@@ -8,7 +8,6 @@ const Homepg = lazy(() => import('./pages/Homepg'));
 const Events = lazy(() => import('./pages/Events'));
 const Team = lazy(() => import('./pages/Team'));
 const Workshop = lazy(() => import('./pages/Workshop'));
-console.warn = function() {}
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
