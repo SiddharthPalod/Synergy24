@@ -63,7 +63,7 @@ export const Timeline = () => {
           </Coverflow>
         </StyleRoot>
 
-        <div className="text-5xl md:text-7xl font-extrabold md:tracking-wide py-3 z-50">
+        <div className="text-5xl md:text-7xl font-extrabold md:tracking-wide py-3 z-40">
           TIMELINE
         </div>
         <div className="relative text-l md:text-xl font-extrabold tracking-wide text-red-700 flex items-center justify-center gap-3 md:gap-6 max-[500px]:gap-6">
