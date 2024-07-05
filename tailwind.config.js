@@ -23,6 +23,11 @@ export default {
           fifth: "moveInCircle 20s ease infinite",
           "meteor-effect": "meteor 5s linear infinite",
         },
+        colors: {
+          "redbg" : "#BF0202",
+          "red-600": "#BF0202",
+          "red-700": "#BF0202",
+        },
         keyframes: {
           moveHorizontal: {
             "0%": {

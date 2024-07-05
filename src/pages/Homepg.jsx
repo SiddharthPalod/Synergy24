@@ -12,7 +12,7 @@ const Homepg = () => {
           <Navbar/>
           <Hero />
           <LazyComponent id="about">
-          <AboutUs />
+          <AboutUs/>
           </LazyComponent>
           <LazyComponent id="timeline">
           <Timeline />
