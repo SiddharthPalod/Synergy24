@@ -26,7 +26,7 @@ export const Timeline = () => {
   const days = ["day1", "day2", "day3"];
 
   const fn = (day, index) => {
-    window.open(`/event_${day}/${index}`, '_blank');
+    window.open(`/event_${day}/${index+1}`, '_blank');
   };
 
   return (

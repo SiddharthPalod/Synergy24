@@ -3,6 +3,9 @@ import EventCard from './EventCard'
 import { motion, LazyMotion, domAnimation } from 'framer-motion';
 
 const DayEvents = ({day,images}) => {
+  const fn = (day, index) => {
+    window.open(`/event_${day}/${index+1}`, '_blank');
+  };
   return (
     <div className='event h-full text-white'>
       <motion.div 
@@ -19,7 +22,7 @@ const DayEvents = ({day,images}) => {
         >
       <div className='grid grid-cols-3 max-[677px]:grid-cols-2 place-items-center gap-2 md:gap-6 mb-20'>
         {images.map((image,index) => (
-          <EventCard key={index} image={image} />
+          <div onDoubleClick={() => fn(day, index)}><EventCard key={index} image={image}/></div>
         ))}
       </div>
       </motion.div>
