@@ -1,10 +1,13 @@
 import React from 'react'
 import EventCard from './EventCard'
 import { motion, LazyMotion, domAnimation } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const DayEvents = ({day,images}) => {
+  const navigate = useNavigate();
   const fn = (day, index) => {
-    window.open(`/event_${day}/${index+1}`, '_blank');
+    navigate(`/event_day${day}/${index+1}`);
+    // window.open(`/event_day${day}/${index+1}`,'_blank');
   };
   return (
     <div className='event h-full text-white'>

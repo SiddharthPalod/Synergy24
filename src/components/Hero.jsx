@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BackgroundGradientAnimation } from '../ui/background-gradiant-animation';
 import { motion } from 'framer-motion';
+import Timer from './timer';
 
 function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -22,10 +23,10 @@ function Hero() {
           <div className="lg:tracking-widest text-xs md:text-base tracking-wider pb-5">
             TECHNICAL FESTIVAL
           </div>
-          <div className="text-5xl md:text-7xl font-extrabold tracking-wide py-5">SYNERGY</div>
+          <div className="heading0 tracking-wide py-5">SYNERGY</div>
           <div className="text-base md:text-xl font-extrabold tracking-wide text-red-700 shadow-red-700">
-            {/* 25-27 OCT 2024 */}
-            Dates to be announced soon
+            <div className='heading2 mb-4'>25-27 OCT 2024</div>
+            <Timer />
           </div>
         </div>
         <motion.div

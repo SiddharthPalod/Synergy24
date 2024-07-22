@@ -24,6 +24,9 @@ export default {
           "meteor-effect": "meteor 5s linear infinite",
         },
         colors: {
+          "blue1":"#0075FF",
+          "blue2":"#13003A",
+          "red1":"#FF0000",
           "redbg" : "#BF0202",
           "red-600": "#BF0202",
           "red-700": "#BF0202",

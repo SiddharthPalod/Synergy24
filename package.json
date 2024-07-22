@@ -31,9 +31,11 @@
     "react-tilt": "^1.0.2",
     "scroll-lock": "^2.1.5",
     "tailwind-merge": "^2.3.0",
-    "valtio": "^1.11.2"
+    "valtio": "^1.11.2",
+    "vite-plugin-svgr": "^4.2.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",

@@ -72,7 +72,7 @@ const Team = () => {
         >
           <div className='grid grid-cols-3 mx-2 gap-4 max-md:grid-cols-2 place-items-center'>
           {team === 'Organizers' && organizers.map((member,index) => (
-            <TeamCard key={index} name={member.name}/>
+            <TeamCard key={index} name={member.name} profile={member.profile}/>
           ))}
           {team === 'Media' && media.map((member,index) => (
             <TeamCard key={index} name={member.name}/>

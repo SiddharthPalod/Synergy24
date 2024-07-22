@@ -5,4 +5,7 @@ import about_syn from "./about_syn.svg"
 import timeline_placeholder from "./timeline_placeholder.png"
 import timeline_placeholder2 from "./timeline_placeholder2.png"
 import cardTexture from "./card-texture.svg"
-export {logo,contact_iiitb,contact_syn,about_syn,timeline_placeholder,timeline_placeholder2, cardTexture};
+import Profile from "./profile.png"
+import Pic from './pic.png'
+
+export {logo,contact_iiitb,contact_syn,about_syn,timeline_placeholder,timeline_placeholder2, cardTexture, Profile,Pic};

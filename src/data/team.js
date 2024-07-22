@@ -1,11 +1,12 @@
+import {Pic} from '../assets/index'
 const organizers = [
-    { name: '1', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' }
+    { name: 'Vaibhav Bajoriya', profile: Pic },
+    { name: '', profile: Pic },
+    { name: '', profile: Pic },
+    { name: '', profile: Pic },
+    { name: '', profile: Pic },
+    { name: '', profile: Pic },
+    { name: '', profile: Pic }
 ];
 
 const design = [
