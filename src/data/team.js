@@ -1,41 +1,41 @@
 import {Pic} from '../assets/index'
 const organizers = [
-    { name: 'Vaibhav Bajoriya', profile: Pic },
-    { name: '', profile: Pic },
-    { name: '', profile: Pic },
-    { name: '', profile: Pic },
-    { name: '', profile: Pic },
-    { name: '', profile: Pic },
-    { name: '', profile: Pic }
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic }
 ];
 
 const design = [
-    { name: '2', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' }
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic }
 ];
 
 const media = [
-    { name: '1', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' }
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic }
 ];
 
 const webdev = [
-    { name: '4', profile: '' },
-    { name: '', profile: '' }
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic }
 ];
 
 const marketing = [
-    { name: '3', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' },
-    { name: '', profile: '' }
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic },
+    { name: 'Not Revealed', profile: Pic }
 ];
 
 export {organizers, design, media, webdev, marketing };

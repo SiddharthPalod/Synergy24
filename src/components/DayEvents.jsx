@@ -17,15 +17,15 @@ const DayEvents = ({day,images}) => {
       transition={{ duration: 0.1 }}
       className='font-bold text-4xl max-sm:text-2xl text-center py-4'
       >
-        {/* Day {day} */} 
+        {/* Day {day}  */}
       </motion.div>
       <LazyMotion features={domAnimation}>
         <motion.div
             className='flex justify-center items-center w-full h-full'
         >
-      <div className='grid grid-cols-3 max-[677px]:grid-cols-2 place-items-center gap-2 md:gap-6 mb-20'>
+      <div className='grid grid-cols-3 max-[677px]:grid-cols-2 place-items-center gap-x-4 gap-y-8 md:gap-10 mb-20'>
         {images.map((image,index) => (
-          <div onDoubleClick={() => fn(day, index)}><EventCard key={index} image={image}/></div>
+          <div onDoubleClick={() => fn(day, index)}><EventCard key={index} data={image}/></div>
         ))}
       </div>
       </motion.div>

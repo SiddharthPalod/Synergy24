@@ -17,7 +17,7 @@ const TeamCard = ({name,profile}) => {
           animate={{ borderWidth: isHovered ? 16 : 0, borderColor: isHovered ? '#13003a' : 'transparent' }}
           transition={{ duration: 0.5 }}
         ></motion.div>
-        <img src={profile} alt='profile' className='rounded-2xl h-full w-full' />
+        <img src={profile} alt='profile' loading='lazy' className='rounded-2xl h-full w-full' />
         {isHovered && (
           <motion.div
             className='bg-blue2 absolute inset-x-0 bottom-0 p-2 m-1 rounded-xl heading4 font-semibold rounded-t-none'

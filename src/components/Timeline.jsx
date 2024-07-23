@@ -57,7 +57,7 @@ export const Timeline = () => {
           >
             {images.map((image, index) => (
               <div key={index} onDoubleClick={() => fn(day, index)}>
-                <img key={index} src={image} alt={`Slide ${index}`} className='block md:w-full items-center' loading='lazy' />
+                <img key={index} src={image.image} alt={`Slide ${index}`} className='block md:w-full items-center' loading='lazy' />
               </div>
             ))}
           </Coverflow>

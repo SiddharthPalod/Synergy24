@@ -8,7 +8,7 @@ const Timer = () => {
   
     const now = new Date();
     const yr = now.getFullYear();
-    const synergyDate = `11/19/${yr}`; // mm/dd/yy format
+    const synergyDate = `10/25/${yr}`; // mm/dd/yy format
     const countDown = new Date(synergyDate).getTime();
   
     const [timeLeft, setTimeLeft] = useState({
@@ -47,22 +47,22 @@ const Timer = () => {
     return (
       <div className="counter-container">
         {showCountdown ? (
-          <div className="bg-red1 text-white flexCenter gap-3 heading2 p-2">
+          <div className="bg-red1 text-white flexCenter gap-2 md:gap-3 heading2 p-2 lg:p-4">
             <div className="flexCenter flex-col">
                 <div>{timeLeft.days}</div>
-                <div className="heading4">Days</div>
+                <div className="text-xs">Days</div>
             </div>
             <div className="flexCenter flex-col">
                 <div>{timeLeft.hours}</div>
-                <div className="heading4">Hours</div>
+                <div className="text-xs">Hours</div>
             </div>
             <div className="flexCenter flex-col">
                 <div>{timeLeft.minutes}</div>
-                <div className="heading4">Minutes</div>
+                <div className="text-xs">Minutes</div>
             </div>
             <div className="flexCenter flex-col">
                 <div>{timeLeft.seconds}</div>
-                <div className="heading4">Seconds</div>
+                <div className="text-xs">Seconds</div>
             </div>
           </div>
         ) : null}

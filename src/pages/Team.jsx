@@ -75,16 +75,16 @@ const Team = () => {
             <TeamCard key={index} name={member.name} profile={member.profile}/>
           ))}
           {team === 'Media' && media.map((member,index) => (
-            <TeamCard key={index} name={member.name}/>
+            <TeamCard key={index} name={member.name} profile={member.profile}/>
           ))}
           {team === 'Design' && design.map((mem,index) => (
-            <TeamCard key={index} name={mem.name}/>
+            <TeamCard key={index} name={mem.name} profile={mem.profile}/>
           ))}
           {team === 'Marketing' && marketing.map((mem,index) => (
-            <TeamCard key={index} name={mem.name}/>
+            <TeamCard key={index} name={mem.name} profile={mem.profile}/>
           ))}
           {team === 'Webdev' && webdev.map((mem,index) => (
-            <TeamCard key={index} name={mem.name}/>
+            <TeamCard key={index} name={mem.name} profile={mem.profile}/>
           ))}
         </div>
         </motion.div>
