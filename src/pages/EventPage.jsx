@@ -39,7 +39,7 @@ const EventPage = () => {
   return (
     <section className='flexCenter'>
       <Back />
-      <motion.div className='h-screen mb-4 flexBetween flex-col justify-evenly md:gap-2 pt-8 sm:pt-20 text-white'
+      <motion.div className='h-screen mb-4 flexBetween flex-col justify-evenly md:gap-2 pt-2 sm:pt-20 text-white'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
@@ -73,7 +73,7 @@ const EventPage = () => {
         <motion.img
           src={event.image}
           alt={event.name}
-          className='md:w-full h-3/5 w-3/5'
+          className='md:w-full md:h-3/5 h-1/2 flex px-6 sm:w-3/5 object-contain'
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
@@ -86,13 +86,20 @@ const EventPage = () => {
         >
           {event.name}
         </motion.div>
+        
+        
+        
         <motion.button
           className='md:px-16 px-12 py-1.5 border-[3.5px] heading3 text-white font-semibold rounded-[1.25rem] border-blue1 tracking-[.07em]'
           whileHover={{ scale: 1.05 }}  
           whileTap={{ scale: 0.95 }}
+          // onClick={() => window.open(event.link, '_blank')}
         >
-          Register
+          {/* Register */}
+          Upcoming
         </motion.button>
+
+
         <div className='md:hidden gap-7 w-screen grid grid-cols-4 px-8 justify-evenly items-center '>
           <button onClick={() => handleClick(about, setAbout)} className='flex flex-col justify-end items-center h-full'>
             <div className='text-center leading-none pb-1'>About Event</div>

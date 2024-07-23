@@ -6,6 +6,7 @@ const events = [
     rules: "Will reveal soon",
     impInfo: "Will reveal soon",
     contact: "Will reveal soon",
+    link:"",
     imageName: 'bgmi'},
     
   { route: '/event_day1/2', 
@@ -14,6 +15,7 @@ const events = [
     rules: "Will reveal soon",
     impInfo: "Will reveal soon",
     contact: "Will reveal soon",
+    link:"",
     imageName: 'cipherChase' },
 
   { route: '/event_day1/3', 
@@ -21,7 +23,8 @@ const events = [
     about: "Will reveal soon",
     rules: "Will reveal soon",
     impInfo: "Will reveal soon",
-    contact: "Will reveal soon",
+    contact: "Will reveal soon",    
+    link:"",
     imageName: 'dataDrive' },
 
   { route: '/event_day1/4',
@@ -30,6 +33,7 @@ const events = [
     rules: "Will reveal soon",
     impInfo: "Will reveal soon",
     contact: "Will reveal soon",
+    link:"",
     imageName: 'eafc'},
 
   { route: '/event_day1/5', 
@@ -38,6 +42,7 @@ const events = [
     rules: "Will reveal soon",
     impInfo: "Will reveal soon",
     contact: "Will reveal soon",
+    link:"",
     imageName: 'bidbuild' },
 
   { route: '/event_day1/6', 
@@ -46,6 +51,7 @@ const events = [
     rules: "Will reveal soon",
     impInfo: "Will reveal soon",
     contact: "Will reveal soon",
+    link:"",
     imageName: 'codeQuest2' },
 
   { route: '/event_day1/7',
@@ -54,6 +60,7 @@ const events = [
     rules: "Will reveal soon",
     impInfo: "Will reveal soon",
     contact: "Will reveal soon",
+    link:"",
     imageName: 'deepReality'},
 
   { route: '/event_day1/8', 
@@ -62,6 +69,7 @@ const events = [
     rules: "Will reveal soon",
     impInfo: "Will reveal soon",
     contact: "Will reveal soon",
+    link:"",
     imageName: 'mernify' },
 
   { route: '/event_day1/9', 
@@ -69,7 +77,8 @@ const events = [
     about: "Will reveal soon",
     rules: "Will reveal soon",
     impInfo: "Will reveal soon",
-    contact: "Will reveal soon",
+    contact: "Will reveal soon",    
+    link:"",
     imageName: 'memeFrenzy' },
 
     // DAY2
@@ -79,6 +88,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'codm'},
 
     { route: '/event_day2/2', 
@@ -87,6 +97,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'cr' },
 
     { route: '/event_day2/3', 
@@ -95,6 +106,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'mlFiesta' },
 
     { route: '/event_day2/4',
@@ -103,6 +115,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'pixelFlow'},
 
     { route: '/event_day2/5', 
@@ -111,6 +124,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'lensFlare' },
 
     { route: '/event_day2/6', 
@@ -119,6 +133,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'techFeud' },
 
     { route: '/event_day2/7',
@@ -127,6 +142,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'theHireGame'},
 
     { route: '/event_day2/8', 
@@ -135,6 +151,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'profitPursuit' },
 
     { route: '/event_day2/9', 
@@ -143,6 +160,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'valo' },
 
     // DAY3
@@ -152,6 +170,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'triviaVerse'},
     { route: '/event_day3/2', 
       name: 'Reel Riot', 
@@ -159,6 +178,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'reelRiot' },
 
     { route: '/event_day3/3', 
@@ -167,6 +187,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'bitsBots' },
 
     { route: '/event_day3/4',
@@ -175,6 +196,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'lockoutDuel'},
 
     { route: '/event_day3/5', 
@@ -183,6 +205,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'cryptoCraft' },
 
     { route: '/event_day3/6', 
@@ -191,6 +214,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'digitalDavinci' },
 
     { route: '/event_day3/7', 
@@ -199,6 +223,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'mathSprint' },
 
     { route: '/event_day3/8', 
@@ -207,6 +232,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'synMun' },
     
     { route: '/event_day3/9', 
@@ -215,6 +241,7 @@ const events = [
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
+      link:"",
       imageName: 'pitchingPixels' },
 ];
 
