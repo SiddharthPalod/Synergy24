@@ -7,7 +7,6 @@ import AboutUs from "./AboutUs";
 import DayEvents from "./DayEvents";
 import Red from "./Red";
 import Eventdisplay from "./Eventdisplay";
-import Back from "./Back";
 import ToggleOption from "./ToggleOption";
 
-export {Hero,Navbar, FAQ , Timeline, Footer,AboutUs,DayEvents,Eventdisplay,Red ,Back,ToggleOption};
+export {Hero,Navbar, FAQ , Timeline, Footer,AboutUs,DayEvents,Eventdisplay,Red ,ToggleOption};

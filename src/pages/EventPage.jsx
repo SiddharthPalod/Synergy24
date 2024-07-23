@@ -4,8 +4,9 @@ import { EventInfo as initialEventInfo } from '../data/EventDetail';
 import { Icon } from '@iconify/react';
 import { useState, useEffect } from 'react';
 import { importSVG } from '../assets/event_specific/importSVG';
-import { Eventdisplay,Back,ToggleOption } from '../components';
+import { Eventdisplay,ToggleOption } from '../components';
 import { dateSize } from '../data/event_image';
+import { Link } from 'react-router-dom'
 
 const EventPage = () => {
   const params = useParams();
@@ -38,7 +39,8 @@ const EventPage = () => {
 
   return (
     <section className='flexCenter'>
-      <Back />
+      <Link className="fixed text-white button-back-events z-50 top-0 left-0 text-xl md:text-4xl p-4 font-bold"
+        to={'/events'}>&lt; BACK</Link>
       <motion.div className='h-screen mb-4 flexBetween flex-col justify-evenly md:gap-2 pt-2 sm:pt-20 text-white'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

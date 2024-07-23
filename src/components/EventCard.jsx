@@ -19,7 +19,7 @@ const EventCard = ({ data }) => {
       className='perspective-1000 w-[10rem] h-[10rem] md:w-[14rem] md:h-[14rem]'
     >
       <div className={`relative w-full h-full text-center transition-transform duration-600 transform-style-preserve-3d shadow-lg ${isFlipped ? 'rotate-y-180' : ''}`}>
-        <div className="absolute w-full h-full bg-green-500 backface-hidden">
+        <div className="absolute w-full h-full bg-red-700 backface-hidden">
           <img src={data.image} loading='lazy' alt="Event_Image_Not_Found" className="object-contain" />
         </div>
         <div className="absolute w-full h-full bg-red-700 text-white rotate-y-180 backface-hidden flex flex-col justify-center text-left">
