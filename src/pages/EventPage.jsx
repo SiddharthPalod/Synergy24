@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 import { useState, useEffect } from 'react';
 import { importSVG } from '../assets/event_specific/importSVG';
 import { Eventdisplay,Back,ToggleOption } from '../components';
-
+import { dateSize } from '../data/event_image';
 
 const EventPage = () => {
   const params = useParams();
@@ -22,7 +22,7 @@ const EventPage = () => {
   useEffect(() => {
     const day = params.event_day.slice(-1);
     const id = params.event;
-    const currentEvent = initialEventInfo[(day - 1) * 8 + (id - 1)];
+    const currentEvent = initialEventInfo[(day - 1) * dateSize[day-1] + (id - 1)];
 
     const loadImage = async () => {
       const module = await importSVG(currentEvent.imageName);

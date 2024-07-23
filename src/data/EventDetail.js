@@ -106,7 +106,7 @@ const events = [
       imageName: 'pixelFlow'},
 
     { route: '/event_day2/5', 
-      name: 'Lens Flare', 
+      name: 'Lens Flare 3.0', 
       about: "Will reveal soon",
       rules: "Will reveal soon",
       impInfo: "Will reveal soon",
@@ -144,7 +144,7 @@ const events = [
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
       imageName: 'valo' },
-    
+
     // DAY3
     { route: '/event_day3/1',
       name: 'Trivia Verse',
@@ -153,7 +153,6 @@ const events = [
       impInfo: "Will reveal soon",
       contact: "Will reveal soon",
       imageName: 'triviaVerse'},
-
     { route: '/event_day3/2', 
       name: 'Reel Riot', 
       about: "Will reveal soon",
