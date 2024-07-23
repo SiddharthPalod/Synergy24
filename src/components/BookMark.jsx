@@ -4,9 +4,9 @@ import {Book} from '../assets/index'
 import { Book3 } from '../assets/index'
 const BookMark = () => {
   return (
-    <div className='absolute bottom-10 right-10 z-10'>
+    <a href='https://drive.google.com/file/d/1OKItt6CrxhnOn-ShFOE5qzTZMBtpreve/view' target="_blank" className='absolute bottom-10 right-10 z-10'>
       <img src={Book3} alt="book" className="w-[15vw] sm:w-[10vw] lg:w-[5vw]"/>
-    </div>
+    </a>
   )
 }
 
