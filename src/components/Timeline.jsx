@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Coverflow from 'react-coverflow';
 import { StyleRoot } from 'radium';
-import { Link } from 'react-router-dom';
 import { images1,images2,images3 } from '../data/event_image';
+import { useNavigate } from 'react-router-dom';
 
 export const Timeline = () => {
   const [day, setDay] = useState("day1");
-
+  const navigate = useNavigate();
   const handleClick = (e) => {
     setDay(e.target.id);
   };
@@ -26,7 +26,7 @@ export const Timeline = () => {
   const days = ["day1", "day2", "day3"];
 
   const fn = (day, index) => {
-    window.open(`/event_${day}/${index}`, '_blank');
+    navigate(`/event_day${day}/${index+1}`);
   };
 
   return (
@@ -57,13 +57,13 @@ export const Timeline = () => {
           >
             {images.map((image, index) => (
               <div key={index} onDoubleClick={() => fn(day, index)}>
-                <img key={index} src={image} alt={`Slide ${index}`} className='block md:w-full items-center' loading='lazy' />
+                <img key={index} src={image.image} alt={`Slide ${index}`} className='block md:w-full items-center' loading='lazy' />
               </div>
             ))}
           </Coverflow>
         </StyleRoot>
 
-        <div className="text-5xl md:text-7xl font-extrabold md:tracking-wide py-3 z-50">
+        <div className="text-5xl md:text-7xl font-extrabold md:tracking-wide py-3 z-40">
           TIMELINE
         </div>
         <div className="relative text-l md:text-xl font-extrabold tracking-wide text-red-700 flex items-center justify-center gap-3 md:gap-6 max-[500px]:gap-6">
@@ -80,7 +80,8 @@ export const Timeline = () => {
               className={`cursor-pointer px-4 text-xl md:text-lg max-[500px]:px-2 font-extrabold tracking-wide ${day === d ? "text-red-700" : "text-white"}`}
               onClick={handleClick}
             >
-              Day {index + 1}
+              {/* Day {index + 1} */}
+              Day ?
             </div>
           ))}
         </div>

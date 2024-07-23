@@ -8,6 +8,7 @@ const Homepg = lazy(() => import('./pages/Homepg'));
 const Events = lazy(() => import('./pages/Events'));
 const Team = lazy(() => import('./pages/Team'));
 const Workshop = lazy(() => import('./pages/Workshop'));
+const EventPage = lazy(() => import('./pages/EventPage'));
 console.warn = function() {}
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='/' element={<Homepg />} />
           <Route path='/events' element={<Events />} />
           <Route path='/workshop' element={<Workshop />} />
-          {/* <Route path='/events/:id' element={<EventComponent />} /> */}
+          <Route path="/:event_day/:event" element={<EventPage />} />
           {/* <Route path='/sponsors' element={<Sponsors />} /> */}
           <Route path='/team' element={<Team />} />
           <Route path='*' element={<Error />} />

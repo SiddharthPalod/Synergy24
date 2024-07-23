@@ -2,11 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+.heading0 {
+  @apply text-4xl md:text-6xl lg:text-8xl font-bold;
+}
+.heading1 {
+  @apply text-5xl md:text-6xl lg:text-7xl font-bold;
+}
+.heading2 {
+  @apply sm:text-xl md:text-2xl lg:text-3xl;
+}
+.heading3 {
+  @apply sm:text-lg md:text-xl lg:text-2xl;
+}
+.heading4 {
+  @apply sm:text-sm md:text-lg lg:text-lg font-normal;
+}
+.para {
+  @apply text-xl max-sm:text-base max-md:text-lg;
+}
+.flexCenter {
+  @apply flex items-center justify-center;
+}
+.flexAround {
+  @apply flex items-center justify-around;
+}
+.flexBetween {
+  @apply flex items-center justify-between;
+}
+}
+
 :root {
   font-family: Poppins, serif, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #01002F;
+  background-color: #010015;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -51,4 +82,29 @@ section{
 
 ::-webkit-scrollbar-thumb {
   background: #0075FF;
+}
+
+.side {
+  display: grid;
+  height: 100%; /* Set a fixed height for .side */
+  overflow: hidden;
+  place-items: center;
+  position: absolute;
+  width: 100%;
+}
+/* EventCard.jsx CSS for cardflip */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
 }
