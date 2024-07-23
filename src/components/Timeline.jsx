@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Coverflow from 'react-coverflow';
 import { StyleRoot } from 'radium';
-import { Link } from 'react-router-dom';
 import { images1,images2,images3 } from '../data/event_image';
+import { useNavigate } from 'react-router-dom';
 
 export const Timeline = () => {
   const [day, setDay] = useState("day1");
-
+  const navigate = useNavigate();
   const handleClick = (e) => {
     setDay(e.target.id);
   };
@@ -26,7 +26,7 @@ export const Timeline = () => {
   const days = ["day1", "day2", "day3"];
 
   const fn = (day, index) => {
-    window.open(`/event_${day}/${index+1}`, '_blank');
+    navigate(`/event_day${day}/${index+1}`);
   };
 
   return (
