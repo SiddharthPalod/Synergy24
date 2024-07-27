@@ -40,13 +40,13 @@ export const Timeline = () => {
             media={{
               '@media (min-width: 1024px)': {
                 width: '100vw',
-                height: '20rem',
+                height: '70vh',
                 scale: '1',
               },
               '@media (max-width: 1024px)': {
                 width: '100vw',
                 height: '50vh',
-                scale: '2',
+                scale: '2.2',
               },
               '@media (max-width: 720px)': {
                 width: '100vw',
