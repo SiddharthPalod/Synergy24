@@ -24,8 +24,8 @@ return (
                 <a href="https://in.linkedin.com/company/synergy-iiitbangalore" target="_blank" rel="noopener noreferrer"className='hover:-translate-y-1'>
                     <Icon icon="ri:linkedin-box-fill"width="1.5rem" height="1.5rem"/>
                 </a>
-                <a href="https://discord.com/channels/1158466913924558930/1158763053681225768" target="_blank" rel="noopener noreferrer"className='hover:-translate-y-1'>
-                    <Icon icon="ri:discord-fill"width="1.5rem" height="1.5rem"/>
+                <a href="tel:+917878099721" target="_blank" rel="noopener noreferrer"className='hover:-translate-y-1'>
+                    <Icon icon="ri:phone-fill"width="1.5rem" height="1.5rem"/>
                 </a>
             </div>
         </nav>
