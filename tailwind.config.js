@@ -16,6 +16,7 @@ export default {
       },
       extend: {
         animation: {
+          'slide': 'slide 30s linear infinite',
           first: "moveVertical 30s ease infinite",
           second: "moveInCircle 20s reverse infinite",
           third: "moveInCircle 40s linear infinite",
@@ -33,6 +34,10 @@ export default {
           "red-700": "#BF0202",
         },
         keyframes: {
+          slide: {
+            '0%': { transform: 'translateX(0)' },
+            '100%': { transform: 'translateX(-100%)' },
+          },
           moveHorizontal: {
             "0%": {
               transform: "translateX(-50%) translateY(-10%)",

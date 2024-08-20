@@ -119,8 +119,8 @@ section{
       transform: translateX(-100%);
     }
   }
-
-  .animate-slide {
-    animation: slide 25s linear infinite;
+  .logos-slide {
+    display: inline block;
+    flex-shrink: 0;
   }
 }

@@ -4,7 +4,7 @@ const Menu = ({ openNavigation,flag,click }) => {
   return (
     <div>
     <svg
-      className=" overflow-visible mx-4 z-50 lg:hidden"
+      className=" overflow-visible absolute top-0 right-8 px-4 py-6 md:p-8 z-50 lg:hidden"
       width="20"
       height="12"
       viewBox="0 0 20 12"
