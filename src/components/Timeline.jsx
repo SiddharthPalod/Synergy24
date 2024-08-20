@@ -26,7 +26,7 @@ export const Timeline = () => {
   const days = ["day1", "day2", "day3"];
 
   const fn = (day, index) => {
-    navigate(`/event_day${day}/${index+1}`);
+    navigate(`/event_${day}/${index+1}`);
   };
 
   return (
