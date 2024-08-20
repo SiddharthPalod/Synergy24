@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import {Hero,FAQ, Timeline, Footer, Navbar,AboutUs} from '../components';
 import LazyComponent from '../LasyComponent';
 import store from '../store';
+import CompanyCarousel from '../components/CompanyCarousel';
 
 const Homepg = () => {
   return (
@@ -20,6 +21,7 @@ const Homepg = () => {
           <LazyComponent id="faq">
             <FAQ />
           </LazyComponent>
+          <CompanyCarousel/>
           <Footer/>
         </div>
       </main>

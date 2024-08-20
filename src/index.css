@@ -108,3 +108,19 @@ section{
 .rotate-y-180 {
   transform: rotateY(180deg);
 }
+
+
+@layer utilities {
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-slide {
+    animation: slide 25s linear infinite;
+  }
+}

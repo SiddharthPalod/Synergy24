@@ -26,6 +26,7 @@ export default {
         colors: {
           "blue1":"#0075FF",
           "blue2":"#13003A",
+          "blue": "#010015",
           "red1":"#FF0000",
           "redbg" : "#BF0202",
           "red-600": "#BF0202",
