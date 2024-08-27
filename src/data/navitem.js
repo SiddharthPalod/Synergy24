@@ -1,6 +1,6 @@
 const navItems = [
     { text: 'Events', href: '/events' },
-    { text: 'Workshops', href: '/workshop' },
+    // { text: 'Workshops', href: '/workshop' },
     { text: 'FAQ',  href: '#faq' },
     { text: 'Team', href: '/team' },
 //     { text: 'Sponsors', href: '#sponsors' },

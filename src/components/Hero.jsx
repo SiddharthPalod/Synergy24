@@ -18,7 +18,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="md:cursor-none">
+    <section className="">
       <BackgroundGradientAnimation>
         <div className="absolute z-30 inset-0 flex flex-col items-center justify-center font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
           <div className="lg:tracking-widest text-xs md:text-base tracking-wider pb-5">

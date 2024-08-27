@@ -18,9 +18,7 @@ const Homepg = () => {
           <LazyComponent id="timeline">
           <Timeline />
           </LazyComponent>
-          <LazyComponent id="faq">
-            <FAQ />
-          </LazyComponent>
+          <FAQ />
           <CompanyCarousel/>
           <Footer/>
         </div>

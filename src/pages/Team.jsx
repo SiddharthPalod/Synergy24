@@ -27,14 +27,14 @@ const Team = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.1 }}
-          className="text-5xl md:text-7xl font-extrabold text-center tracking-wide pt-4">
+          className="text-5xl lg:w-[75%] md:text-7xl font-extrabold text-center tracking-wide py-4">
         Team
       </motion.div>
-      <div className='h-[80%] flex justify-end'>
+      <div className='w-full h-[80%] flex justify-end'>
         <button onClick={toggleNavigation} className='min-sm:hidden hover:bg-sky-500 z-20'>
           <Menu openNavigation={openNavigation} flag={false} click={handleClick}/>
         </button>
-        <div className='hidden absolute ml-5 w-[25rem] lg:flex flex-col gap-4 font-semibold text-xl max-sm:text-lg max-md:text-xl top-[40%] left-[5vw]'>
+        <div className='hidden absolute ml-5 w-[30%] lg:flex flex-col gap-4 font-semibold text-xl max-sm:text-lg max-md:text-xl top-[40%] left-[5vw]'>
           <button 
             onClick={handleClick} 
             className={`text-left hover:text-red-600 ${team === 'Organizers' ? 'opacity-100' : 'opacity-60'}`}
@@ -68,7 +68,7 @@ const Team = () => {
         </div>
         <LazyMotion features={domAnimation}>
         <motion.div
-          className='w-full lg:w-[60%] py-4'
+          className='w-full lg:w-[70%] md:m-6 lg:mr-10'
         >
           <div className='grid grid-cols-3 mx-2 gap-4 max-md:grid-cols-2 place-items-center'>
           {team === 'Organizers' && organizers.map((member,index) => (

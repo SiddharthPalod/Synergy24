@@ -11,10 +11,10 @@ const TeamCard = ({name,profile}) => {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className='relative max-sm:h-[10rem] max-sm:w-[10rem] bg-blue1 p-1 w-[12rem] rounded-xl text-center'>
+        <div className='relative max-sm:h-[10rem] max-sm:w-[10rem] bg-blue1 p-1 rounded-xl text-center'>
         <motion.div
-          className='absolute h-[82%] w-[96%] rounded-2xl'
-          animate={{ borderWidth: isHovered ? 16 : 0, borderColor: isHovered ? '#13003a' : 'transparent' }}
+          className='absolute h-[90%] w-[97.1%] rounded-2xl'
+          animate={{ borderWidth: isHovered ? 20 : 0, borderColor: isHovered ? '#13003a' : 'transparent' }}
           transition={{ duration: 0.5 }}
         ></motion.div>
         <img src={profile} alt='profile' loading='lazy' className='rounded-2xl h-full w-full' />
