@@ -80,8 +80,7 @@ export const Timeline = () => {
               className={`cursor-pointer px-4 text-xl md:text-lg max-[500px]:px-2 font-extrabold tracking-wide ${day === d ? "text-red-700" : "text-white"}`}
               onClick={handleClick}
             >
-              {/* Day {index + 1} */}
-              Day ?
+              Day {index + 1}
             </div>
           ))}
         </div>

@@ -1,19 +1,19 @@
 const faqData = [
     {
       question: 'How will I get updates of the events?',
-      answer: 'You can get updates of each event by contacting one of the SPOCS of the event or by following @infin8_iiitb on Instagram.',
+      answer: 'You can get updates of each event by contacting one of the SPOCS of the event or by following @synergy_iiitb on Instagram.',
     },
     {
-      question: 'How do I verify my identity in college events?',
-      answer: 'For IIITB students, please bring your ID card. Non-IIITB students will have their payment verified, and tickets will be sent to the provided email. This email confirmation will serve as your identity verification',
+      question: 'Do we need to pay for any events?',
+      answer: 'No, This year all events are free for eveyone who registers.',
     },
     {
-      question: 'Individual event tickets or one for all events?',
-      answer: 'One ticket for any of the events is enough to get you into the college for the day the event is happening, but for participating in any other event, you would still have to pay',
+      question: 'Do we need to pay for any workshops/talks?',
+      answer: 'No, This year all workshops & talks are free for eveyone who attends.',
     },
     {
       question: 'What are the steps to register?',
-      answer: 'Choose your event and fill out the Google Form. Non-IIITB students: Scan the QR code, pay, screenshot the receipt, and submit. IIITB students: No payment required upload your student ID',
+      answer: 'Choose your event and fill out the Google Form/Unstop Registeration. Note: All IIIT-Bangalore students should register through college email id.',
     },
     {
       question: 'Are there sponsorship opportunities for businesses or organisations?',

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { BackgroundGradientAnimation } from '../ui/background-gradiant-animation';
 import { motion } from 'framer-motion';
 import Timer from './timer';
-import { Bookmark } from './Bookmark';
+// import { Bookmark } from './Bookmark';
 
 function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -35,7 +35,7 @@ function Hero() {
           className="absolute z-40 bg-blue-600 rounded-full pointer-events-none shadow-2xl sm:visible invisible"
           style={{ height: 10, width: 10, x: mousePosition.x, y: mousePosition.y }}
         />
-        <Bookmark/>
+        {/* <Bookmark/> */}
       </BackgroundGradientAnimation>
     </section>
   );

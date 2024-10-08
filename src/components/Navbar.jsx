@@ -16,8 +16,7 @@ function Navbar() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
         };
         return (
-        <nav className="pt-2 flex font-bold items-center justify-between px-4 fixed top-0 w-full z-50 bg-transparent backdrop-blur-lg ">
-                
+        <nav className="pt-2 flex font-bold items-center justify-between px-4 fixed top-0 w-full z-50 bg-transparent backdrop-blur-sm">
                 <Link to={'/'} className="w-40 max-sm:w-1/2 scroll-smooth" onClick={scrollToTop}>
                         <img src={logo} alt="Logo" />
                 </Link>

@@ -15,9 +15,9 @@ const DayEvents = ({day,images}) => {
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.1 }}
-      className='font-bold text-4xl max-sm:text-2xl text-center py-4'
+      className='font-bold text-4xl max-sm:text-2xl text-center py-4 md:py-8'
       >
-        {/* Day {day}  */}
+      Day {day} 
       </motion.div>
       <LazyMotion features={domAnimation}>
         <motion.div

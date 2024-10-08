@@ -8,7 +8,7 @@ const Timer = () => {
   
     const now = new Date();
     const yr = now.getFullYear();
-    const synergyDate = `10/25/${yr}`; // mm/dd/yy format
+    const synergyDate = `11/8/${yr}`; // mm/dd/yy format
     const countDown = new Date(synergyDate).getTime();
   
     const [timeLeft, setTimeLeft] = useState({

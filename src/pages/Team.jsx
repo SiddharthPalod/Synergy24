@@ -27,7 +27,7 @@ const Team = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.1 }}
-          className="text-5xl lg:w-[75%] md:text-7xl font-extrabold text-center tracking-wide py-4">
+          className="text-5xl md:text-7xl font-extrabold  text-center tracking-wide py-4">
         Team
       </motion.div>
       <div className='w-full h-[80%] flex justify-end'>

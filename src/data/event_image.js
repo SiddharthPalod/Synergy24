@@ -1,48 +1,29 @@
-import {bgmi,bidbuild,bitsBots,
-    cipherChase,codeQuest2,codm,cr,cryptoCraft,
-    dataDrive,deepReality,digitalDavinci,
-    eafc,lensFlare,lockoutDuel,mathSprint,
-    memeFrenzy,mernify,mlFiesta,pitchingPixels,
-    pixelFlow,profitPursuit,reelRiot,synMun,
-    techFeud,theHireGame,triviaVerse,valo} from '../assets/event_timeline';
+import {bgmi,bidbuild,
+    cipherChase,codeQuest2,codm,cr,deepReality,
+    eafc,lensFlare,lockoutDuel,mernify,mlFiesta,pitchingPixels,
+    pixelFlow,reelRiot,synMun,valo} from '../assets/event_timeline';
   
 const images1 = [
-{
-name:"BGMI",
-desc:"",
-prize:"Not revealed",
-image:bgmi
-},
 {
     name:"Cipher Chase",
     desc:"",
     prize:"Not revealed",
     image:cipherChase
     },
-{
-    name:"Data Drive",
-    desc:"",
-    prize:"Not revealed",
-    image:dataDrive
-    },
-{
-    name:"EA FC",
-    desc:"",
-    prize:"Not revealed",
-    image:eafc
-    },
-{
-name:"BId and Build",
-desc:"",
-prize:"Not revealed",
-image:bidbuild
-},
+
 {
     name:"Code Quest 3.0",
     desc:"",
     prize:"Not revealed",
     image:codeQuest2
     },
+
+{
+name:"Bid and Build",
+desc:"",
+prize:"Not revealed",
+image:bidbuild
+},
 {
     name:"Deep Reality",
     desc:"",
@@ -55,12 +36,6 @@ image:bidbuild
     prize:"Not revealed",
     image:mernify
     },
-{
-    name:"MEME Frenzy",
-    desc:"",
-    prize:"Not revealed",
-    image:memeFrenzy
-}
 ];
 
 const images2 = [
@@ -71,62 +46,50 @@ const images2 = [
     image:codm
     },
     {
+        name:"BGMI",
+        desc:"",
+        prize:"Not revealed",
+        image:bgmi
+        },
+    {
     name:"Clash Royale",
     desc:"",
     prize:"Not revealed",
     image:cr
     },
     {
-    name:"ML-Fiesta",
-    desc:"",
-    prize:"Not revealed",
-    image:mlFiesta
-    },
+        name:"SynMUN 2.0",
+        desc:"",
+        prize:"Not revealed",
+        image:synMun
+        },
     {
-    name:"Pixel Flow 2.0",
-    desc:"",
-    prize:"Not revealed",
-    image:pixelFlow
-    },
+        name:"Lockout Duel 2.0",
+        desc:"",
+        prize:"Not revealed",
+        image:lockoutDuel
+        },
     {
-    name:"Lens Flare 3.0",
-    desc:"",
-    prize:"Not revealed",
-    image:lensFlare
-    },
+        name:"EA FC",
+        desc:"",
+        prize:"Not revealed",
+        image:eafc
+        },
     {
-    name:"Tech Feud",
-    desc:"",
-    prize:"Not revealed",
-    image:techFeud
-    },
-    {
-    name:"The Hire Game",
-    desc:"",
-    prize:"Not revealed",
-    image:theHireGame
-    },
-    {
-    name:"Profit Pursuit",
-    desc:"",
-    prize:"Not revealed",
-    image:profitPursuit
-    },
-    {
-    name:"Valorant",
-    desc:"",
-    prize:"Not revealed",
-    image:valo
-    }
+        name:"Valorant",
+        desc:"",
+        prize:"Not revealed",
+        image:valo
+        },
 ];
 
 const images3 = [
-{
-    name:"Trivia Verse",
-    desc:"",
-    prize:"Not revealed",
-    image:triviaVerse
-    },
+    {
+        name:"Lens Flare 3.0",
+        desc:"",
+        prize:"Not revealed",
+        image:lensFlare
+        },
     {
     name:"Reel Riot",
     desc:"",
@@ -134,47 +97,23 @@ const images3 = [
     image:reelRiot
     },
     {
-    name:"Bits and Bots 2.0",
+        name:"ML-Fiesta",
+        desc:"",
+        prize:"Not revealed",
+        image:mlFiesta
+        },
+    {
+    name:"Pixel Flow 2.0",
     desc:"",
     prize:"Not revealed",
-    image:bitsBots
+    image:pixelFlow
     },
     {
-    name:"Lockout Duel 2.0",
-    desc:"",
-    prize:"Not revealed",
-    image:lockoutDuel
-    },
-    {
-    name:"Crypto Craft",
-    desc:"",
-    prize:"Not revealed",
-    image:cryptoCraft
-    },
-    {
-    name:"Digital Da Vinci",
-    desc:"",
-    prize:"Not revealed",
-    image:digitalDavinci
-    },
-    {
-    name:"Math Sprint",
-    desc:"",
-    prize:"Not revealed",
-    image:mathSprint
-    },
-    {
-    name:"SynMUN 2.0",
-    desc:"",
-    prize:"Not revealed",
-    image:synMun
-    },
-    {
-    name:"Pitching Pixels 2.0",
-    desc:"",
-    prize:"Not revealed",
-    image:pitchingPixels
-    }
+        name:"Pitching Pixels 2.0",
+        desc:"",
+        prize:"Not revealed",
+        image:pitchingPixels
+        },
 ];
 
 const dateSize = [images1.length, images2.length, images3.length];
