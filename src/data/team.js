@@ -2,14 +2,15 @@ import {Pic} from '../assets/index'
 import Design from '../assets/team/design'
 import Media from '../assets/team/media'
 import Marketing from '../assets/team/marketing'
+import Organizers from '../assets/team/organiser'
 
 const organizers = [
     { name: 'Siddharth Palod', profile: 'https://media.licdn.com/dms/image/v2/D5603AQHTRZctoVxDrQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718215114570?e=1733961600&v=beta&t=4XCkDZxdhWdrx5oRrR7Xi6IbqQ2XCvGEBeY9ZUDjIpo' },
-    { name: 'Ayush Tiwari', profile: 'https://media.licdn.com/dms/image/v2/D4D03AQGThnrFnVB4xA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718239527515?e=1733961600&v=beta&t=jJdqQi--nLgoVZvsW5cnch_L48X0kydQc_HprN6N6q8' },
+    { name: 'Ayush Tiwari', profile: Organizers.Ayush },
     { name: 'Shivek Ranjan', profile: 'https://media-bom1-1.cdn.whatsapp.net/v/t61.24694-24/459174260_916348173671032_1478679312472002067_n.jpg?ccb=11-4&oh=01_Q5AaINso-bUJNlNZLrrXTXhZJqrR2lEvrzfKye-ByBULERHD&oe=670D1D70&_nc_sid=5e03e0&_nc_cat=101'},
     { name: 'Kaustubh Manda', profile: Pic},
     { name: 'Mathew Josheph', profile: 'https://media.licdn.com/dms/image/v2/D4D03AQEd4uxbvm7WDQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711907193764?e=1733961600&v=beta&t=jNGLuv2cc4iTzLHhMvktvRaCQjpp5iPC_PQdWvbq5UE' },
-    { name: 'vriddhi agrawal', profile: Pic },
+    { name: 'vriddhi agrawal', profile: Organizers.Vriddhi },
 ];
 
 const design = [
@@ -22,7 +23,7 @@ const design = [
 const media = [
     { name: 'Rahul M', profile: Media.Rahul },
     { name: 'Nanda', profile: Media.Nanda },
-    { name: 'Not Revealed', profile: Pic },
+    { name: 'Shantanu', profile: Media.Shantanu },
     { name: 'Not Revealed', profile: Pic },
     { name: 'Not Revealed', profile: Pic },
     { name: 'Not Revealed', profile: Pic }
