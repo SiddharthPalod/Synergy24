@@ -1,4 +1,7 @@
 import {Pic} from '../assets/index'
+import Design from '../assets/team/design'
+import Media from '../assets/team/media'
+import Marketing from '../assets/team/marketing'
 
 const organizers = [
     { name: 'Siddharth Palod', profile: 'https://media.licdn.com/dms/image/v2/D5603AQHTRZctoVxDrQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718215114570?e=1733961600&v=beta&t=4XCkDZxdhWdrx5oRrR7Xi6IbqQ2XCvGEBeY9ZUDjIpo' },
@@ -10,15 +13,15 @@ const organizers = [
 ];
 
 const design = [
-    { name: 'Chaitya', profile: 'https://media-bom1-1.cdn.whatsapp.net/v/t61.24694-24/420658053_340159622309106_3498443146124642099_n.jpg?ccb=11-4&oh=01_Q5AaIMtVAFHYBlcihC1fmG233_Ze9fx0Jne3FjP4mkX8KDdX&oe=67124558&_nc_sid=5e03e0&_nc_cat=102        ' },
-    { name: 'Not Revealed', profile: Pic },
-    { name: 'Not Revealed', profile: Pic },
-    { name: 'Not Revealed', profile: Pic }
+    { name: 'Pratham', profile: Design.Pratham },
+    { name: 'Dheeraj', profile: Design.Dheeraj },
+    { name: 'Prabhas', profile: Design.Prabhas },
+    { name: 'Chaitya', profile: Design.Chaitya },
 ];
 
 const media = [
-    { name: 'Rahul M', profile: 'https://media.licdn.com/dms/image/v2/D4E03AQFEVmYa_eIU_w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1674485970916?e=1733961600&v=beta&t=PuTUlIdERMW5u2AybcXzPIlGE0-f-K2_itGqUVa-A_Y' },
-    { name: 'Not Revealed', profile: Pic },
+    { name: 'Rahul M', profile: Media.Rahul },
+    { name: 'Nanda', profile: Media.Nanda },
     { name: 'Not Revealed', profile: Pic },
     { name: 'Not Revealed', profile: Pic },
     { name: 'Not Revealed', profile: Pic },
@@ -32,9 +35,9 @@ const webdev = [
 
 const marketing = [
     { name: 'Akshaya Bysani', profile: 'https://media.licdn.com/dms/image/v2/D5603AQHyJRXP0Arzdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685243706536?e=1733961600&v=beta&t=UChdMrp8jjIIH_26WsBvOPmnyThl62-AK0u68es8U6k'},
-    { name: 'Hemang Seth', profile: 'https://media-bom1-1.cdn.whatsapp.net/v/t61.24694-24/436732548_1533959860577097_6280359671960695109_n.jpg?ccb=11-4&oh=01_Q5AaIPVaGBW8vZx0nCNUah7cn12awfX4YGM4GTfLov-6CFwq&oe=670D1118&_nc_sid=5e03e0&_nc_cat=102' },
-    { name: 'Not Revealed', profile: Pic },
-    { name: 'Not Revealed', profile: Pic },
+    { name: 'Hemang Seth', profile: Marketing.Hemang },
+    { name: 'Aditya', profile: Marketing.Aditya },
+    { name: 'Aaryan Antala', profile: Marketing.AaryanAntala },
     { name: 'Not Revealed', profile: Pic }
 ];
 

@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { EventInfo as initialEventInfo } from '../data/EventDetail';
+import { EventInfo } from '../data/EventDetail';
 import { Icon } from '@iconify/react';
 import { useState, useEffect } from 'react';
 import { importSVG } from '../assets/event_specific/importSVG';
@@ -23,7 +23,7 @@ const EventPage = () => {
   useEffect(() => {
     const day = params.event_day.slice(-1);
     const id = params.event;
-    const currentEvent = initialEventInfo[(day - 1) * dateSize[day-1] + (id - 1)];
+    const currentEvent = EventInfo[dateSize[day-1] + (id - 1)];
 
     const loadImage = async () => {
       const module = await importSVG(currentEvent.imageName);

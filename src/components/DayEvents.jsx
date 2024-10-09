@@ -7,7 +7,6 @@ const DayEvents = ({day,images}) => {
   const navigate = useNavigate();
   const fn = (day, index) => {
     navigate(`/event_day${day}/${index+1}`);
-    // window.open(`/event_day${day}/${index+1}`,'_blank');
   };
   return (
     <div className='event h-full text-white'>
@@ -23,11 +22,11 @@ const DayEvents = ({day,images}) => {
         <motion.div
             className='flex justify-center items-center w-full h-full'
         >
-      <div className='grid grid-cols-3 max-[677px]:grid-cols-2 place-items-center gap-x-4 gap-y-8 md:gap-10 mb-20'>
+        <div className='grid grid-cols-3 max-[677px]:grid-cols-2 place-items-center gap-x-4 gap-y-8 md:gap-10 mb-20'>
         {images.map((image,index) => (
           <div onDoubleClick={() => fn(day, index)}><EventCard key={index} data={image}/></div>
         ))}
-      </div>
+        </div>
       </motion.div>
       </LazyMotion>
     </div>

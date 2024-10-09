@@ -37,6 +37,7 @@ export const Timeline = () => {
             displayQuantityOfSide={3}
             enableHeading={false}
             enableScroll={false}
+            active={day === "day2" ? 3 : day === "day3" ? 2 : day === "day1" ? 2 : 1}
             media={{
               '@media (min-width: 1024px)': {
                 width: '100vw',

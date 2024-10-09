@@ -9,15 +9,13 @@ const images1 = [
     desc:"",
     prize:"Not revealed",
     image:cipherChase
-    },
-
+},
 {
     name:"Code Quest 3.0",
     desc:"",
     prize:"Not revealed",
     image:codeQuest2
-    },
-
+},
 {
 name:"Bid and Build",
 desc:"",
@@ -29,13 +27,13 @@ image:bidbuild
     desc:"",
     prize:"Not revealed",
     image:deepReality
-    },
+},
 {
     name:"Mernify",
     desc:"",
     prize:"Not revealed",
     image:mernify
-    },
+},
 ];
 
 const images2 = [
@@ -44,43 +42,43 @@ const images2 = [
     desc:"",
     prize:"Not revealed",
     image:codm
-    },
-    {
-        name:"BGMI",
-        desc:"",
-        prize:"Not revealed",
-        image:bgmi
-        },
-    {
-    name:"Clash Royale",
+},
+{
+    name:"BGMI",
     desc:"",
     prize:"Not revealed",
-    image:cr
+    image:bgmi
     },
-    {
-        name:"SynMUN 2.0",
-        desc:"",
-        prize:"Not revealed",
-        image:synMun
-        },
-    {
-        name:"Lockout Duel 2.0",
-        desc:"",
-        prize:"Not revealed",
-        image:lockoutDuel
-        },
-    {
-        name:"EA FC",
-        desc:"",
-        prize:"Not revealed",
-        image:eafc
-        },
-    {
-        name:"Valorant",
-        desc:"",
-        prize:"Not revealed",
-        image:valo
-        },
+{
+name:"Clash Royale",
+desc:"",
+prize:"Not revealed",
+image:cr
+},
+{
+    name:"SynMUN 2.0",
+    desc:"",
+    prize:"Not revealed",
+    image:synMun
+    },
+{
+    name:"Lockout Duel 2.0",
+    desc:"",
+    prize:"Not revealed",
+    image:lockoutDuel
+    },
+{
+    name:"EA FC",
+    desc:"",
+    prize:"Not revealed",
+    image:eafc
+    },
+{
+    name:"Valorant",
+    desc:"",
+    prize:"Not revealed",
+    image:valo
+    },
 ];
 
 const images3 = [
@@ -116,6 +114,6 @@ const images3 = [
         },
 ];
 
-const dateSize = [images1.length, images2.length, images3.length];
+const dateSize = [ 0 , images1.length, images1.length+images2.length];
 
 export { images1, images2, images3,dateSize};

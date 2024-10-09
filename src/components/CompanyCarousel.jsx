@@ -8,12 +8,12 @@ const CompanyCarousel = () => {
       <div className='flex whitespace-nowrap'>
         <div className="animate-slide flex logos-slide">
             {Logos.map((logo, index) => (
-                <img key={index} src={logo} className="h-16 mx-[2vw]" />
+                <a href={logo.link} target='_blank'><img key={index} src={logo.img} className="h-16 mx-[2vw]" /></a>
             ))}
         </div>
         <div className="animate-slide flex logos-slide ">
             {Logos.map((logo, index) => (
-                <img key={index} src={logo} className="h-16 mx-[2vw]" />
+                <a href={logo.link} target='_blank'><img key={index} src={logo.img} className="h-16 mx-[2vw]" /></a>
             ))}
         </div>
       </div>
