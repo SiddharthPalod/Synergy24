@@ -8,7 +8,7 @@ const organizers = [
     { name: 'Siddharth Palod', profile: 'https://media.licdn.com/dms/image/v2/D5603AQHTRZctoVxDrQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718215114570?e=1733961600&v=beta&t=4XCkDZxdhWdrx5oRrR7Xi6IbqQ2XCvGEBeY9ZUDjIpo' },
     { name: 'Ayush Tiwari', profile: Organizers.Ayush },
     { name: 'Shivek Ranjan', profile: 'https://media-bom1-1.cdn.whatsapp.net/v/t61.24694-24/459174260_916348173671032_1478679312472002067_n.jpg?ccb=11-4&oh=01_Q5AaINso-bUJNlNZLrrXTXhZJqrR2lEvrzfKye-ByBULERHD&oe=670D1D70&_nc_sid=5e03e0&_nc_cat=101'},
-    { name: 'Kaustubh Manda', profile: Pic},
+    { name: 'Kaustubh Manda', profile: Organizers.Kaustubb},
     { name: 'Mathew Josheph', profile: 'https://media.licdn.com/dms/image/v2/D4D03AQEd4uxbvm7WDQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711907193764?e=1733961600&v=beta&t=jNGLuv2cc4iTzLHhMvktvRaCQjpp5iPC_PQdWvbq5UE' },
     { name: 'vriddhi agrawal', profile: Organizers.Vriddhi },
 ];
