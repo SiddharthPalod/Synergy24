@@ -15,6 +15,7 @@ import pixelFlow from './pixelFlow.webp';
 import reelRiot from './reelRiot.webp';
 import synMun from './synMun.webp';
 import valo from './valo.webp';
+import dapp from './dapp.webp'
 
 export {
     bgmi,
@@ -34,4 +35,5 @@ export {
     reelRiot,
     synMun,
     valo,
+    dapp,
 };

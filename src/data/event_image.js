@@ -1,7 +1,7 @@
 import {bgmi,bidbuild,
     cipherChase,codeQuest2,codm,cr,deepReality,
     eafc,lensFlare,lockoutDuel,mernify,mlFiesta,pitchingPixels,
-    pixelFlow,reelRiot,synMun,valo} from '../assets/event_timeline';
+    pixelFlow,reelRiot,synMun,valo,dapp} from '../assets/event_timeline';
   
 const images1 = [
 {
@@ -79,6 +79,12 @@ image:cr
     prize:"Not revealed",
     image:valo
     },
+{
+    name:"Dappathon",
+    desc:"",
+    prize:"Not revealed",
+    image:dapp
+},
 ];
 
 const images3 = [

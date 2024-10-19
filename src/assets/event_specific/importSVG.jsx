@@ -34,6 +34,8 @@ export const importSVG = async (svgName) => {
         return import('./synMun.webp');
       case 'valo':
         return import('./valo.webp');
+        case 'dapp':
+          return import('./dapp.webp');
       default:
         throw new Error(`Unknown SVG: ${svgName}`);
     }

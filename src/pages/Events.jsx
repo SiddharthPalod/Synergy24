@@ -3,7 +3,6 @@ import {DayEvents} from '../components'
 import { images1,images2,images3 } from '../data/event_image'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-// import {Red} from '../components'
 const Events = () => {
   return (
     <div>

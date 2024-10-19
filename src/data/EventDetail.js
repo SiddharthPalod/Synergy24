@@ -107,6 +107,15 @@ const events = [
         contact: "Will reveal soon",
         link:"",
         imageName: 'valo' },
+      { route: '/event_day2/8',
+        name: 'DAppathon',
+        about: "Will reveal soon",
+        rules: "Will reveal soon",
+        impInfo: "Will reveal soon",
+        contact: "Will reveal soon",
+        link:"https://lu.ma/hackiiitblr",
+        imageName: 'dapp'
+      },
 
     // DAY3
     { route: '/event_day3/1', 
