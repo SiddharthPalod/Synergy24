@@ -20,14 +20,14 @@ const Team = () => {
     setTeam(e.target.innerText);
   }
   return (
-    <div className='text-white h-screen'>
-      <Link className="fixed button-back-events z-50 top-0 left-0 text-xl md:text-4xl p-4 font-bold"
+    <div className='text-white'>
+      <Link className="fixed button-back-events z-50 top-0 left-0 text-xl md:text-4xl px-4 py-6 lg:p-10 font-bold"
         to={'/'}>&lt; BACK</Link>
       <motion.div 
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.1 }}
-          className="text-5xl md:text-7xl font-extrabold  text-center tracking-wide py-4">
+          className="text-5xl md:text-7xl font-extrabold text-center tracking-wide py-4">
         Team
       </motion.div>
       <div className='w-full h-[80%] flex justify-end'>

@@ -24,7 +24,7 @@ const DayEvents = ({day,images}) => {
         >
         <div className='grid grid-cols-3 max-[677px]:grid-cols-2 place-items-center gap-x-4 gap-y-8 md:gap-10 mb-20'>
         {images.map((image,index) => (
-          <div onDoubleClick={() => fn(day, index)}><EventCard key={index} data={image}/></div>
+          <div onClick={() => fn(day, index)}><EventCard key={index} data={image}/></div>
         ))}
         </div>
       </motion.div>

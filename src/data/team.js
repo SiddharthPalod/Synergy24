@@ -3,9 +3,10 @@ import Design from '../assets/team/design'
 import Media from '../assets/team/media'
 import Marketing from '../assets/team/marketing'
 import Organizers from '../assets/team/organiser'
+import WebDev from '../assets/team/webdev'
 
 const organizers = [
-    { name: 'Siddharth Palod', profile: 'https://media.licdn.com/dms/image/v2/D5603AQHTRZctoVxDrQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718215114570?e=1733961600&v=beta&t=4XCkDZxdhWdrx5oRrR7Xi6IbqQ2XCvGEBeY9ZUDjIpo' },
+    { name: 'Siddharth Palod', profile: Organizers.Siddharth },
     { name: 'Ayush Tiwari', profile: Organizers.Ayush },
     { name: 'Shivek Ranjan', profile: Organizers.Shivek},
     { name: 'Kaustubh Manda', profile: Organizers.Kaustubb},
@@ -28,8 +29,8 @@ const media = [
 ];
 
 const webdev = [
-    { name: 'Vaibhav Bajoriya', profile: 'https://media.licdn.com/dms/image/v2/D5603AQEu5Ininu9TgQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1708091618478?e=1733961600&v=beta&t=M8wusQnCD9_O-CtCDEv-D60Tx4e9EVpFeJoC1qUQg9g' },
-    { name: 'Siddharth Palod', profile: 'https://media.licdn.com/dms/image/v2/D5603AQHTRZctoVxDrQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718215114570?e=1733961600&v=beta&t=4XCkDZxdhWdrx5oRrR7Xi6IbqQ2XCvGEBeY9ZUDjIpo' },
+    { name: 'Vaibhav B', profile: WebDev.Vaibhav },
+    { name: 'Siddharth Palod', profile: WebDev.Siddharth },
 ];
 
 const marketing = [
