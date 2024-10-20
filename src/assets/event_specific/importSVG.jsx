@@ -12,6 +12,8 @@ export const importSVG = async (svgName) => {
         return import('./codm.webp');
       case 'cr':
         return import('./cr.webp');
+      case 'dapp':
+        return import('./dapp.webp');
       case 'deepReality':
         return import('./deepReality.webp');
       case 'eafc':
@@ -32,10 +34,10 @@ export const importSVG = async (svgName) => {
         return import('./reelRiot.webp');
       case 'synMun':
         return import('./synMun.webp');
+      case 'triviaVerse':
+        return import('./triviaVerse.webp');
       case 'valo':
         return import('./valo.webp');
-        case 'dapp':
-          return import('./dapp.webp');
       default:
         throw new Error(`Unknown SVG: ${svgName}`);
     }
