@@ -13,7 +13,7 @@ const TeamCard = ({ name, profile }) => {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className='relative max-sm:h-[10rem] max-sm:w-[10rem] aspect-square bg-blue1 p-1 rounded-xl text-center'>
+        <div className='cursor-pointer relative max-sm:h-[10rem] max-sm:w-[10rem] aspect-square bg-blue1 p-1 rounded-xl text-center'>
           <motion.div
             className='absolute h-[98%] w-[98%] rounded-2xl'
             animate={{ borderWidth: isHovered ? 20 : 0, borderColor: isHovered ? '#13003a' : 'transparent' }}

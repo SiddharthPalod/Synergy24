@@ -16,7 +16,7 @@ const EventCard = ({ data }) => {
       transition={{ duration: 0.5 }}
       onMouseEnter={handleMouse}
       onMouseLeave={handleMouse}
-      className='perspective-1000 w-[10rem] h-[10rem] sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[20rem] lg:h-[20rem]'
+      className='cursor-pointer perspective-1000 w-[10rem] h-[10rem] sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[20rem] lg:h-[20rem]'
     >
       <div className={`relative w-full h-full text-center transition-transform duration-600 transform-style-preserve-3d shadow-lg ${isFlipped ? 'rotate-y-180' : ''}`}>
         <div className="absolute w-full h-full bg-red-700 backface-hidden">

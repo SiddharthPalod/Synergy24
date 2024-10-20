@@ -25,7 +25,8 @@ const media = [
     { name: 'Rahul M', profile: Media.Rahul },
     { name: 'Nanda', profile: Media.Nanda },
     { name: 'Shantanu', profile: Media.Shantanu },
-    { name: 'Not Revealed', profile: Media.Navish },
+    { name: 'Navish', profile: Media.Navish },
+    { name: 'Not Revealed', profile: Media.Lithin },
 ];
 
 const webdev = [
@@ -38,6 +39,7 @@ const marketing = [
     { name: 'Hemang Seth', profile: Marketing.Hemang },
     { name: 'Aditya', profile: Marketing.Aditya },
     { name: 'Aaryan Antala', profile: Marketing.AaryanAntala },
+    { name: 'Vijay', profile: Marketing.Vijay },
 ];
 
 export {organizers, design, media, webdev, marketing };
