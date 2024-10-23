@@ -95,10 +95,9 @@ const EventPage = () => {
           className='md:px-16 px-12 py-1.5 border-[3.5px] heading3 text-white font-semibold rounded-[1.25rem] border-blue1 tracking-[.07em]'
           whileHover={{ scale: 1.05 }}  
           whileTap={{ scale: 0.95 }}
-          // onClick={() => window.open(event.link, '_blank')}
+          onClick={() => window.open(event.link, '_blank')}
         >
-          {/* Register */}
-          Upcoming
+          Register
         </motion.button>
 
 

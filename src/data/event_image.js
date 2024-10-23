@@ -1,6 +1,6 @@
 import {bgmi, bidbuild, cipherChase, codeQuest2, codm, cr, deepReality,
     eafc, lensFlare, lockoutDuel, mernify, mlFiesta, pitchingPixels,
-    pixelFlow, reelRiot, synMun, valo, dapp} from '../assets/event_timeline';
+    pixelFlow, reelRiot, synMun, valo, dapp, triviaVerse} from '../assets/event_timeline';
 
 const images1 = [
 {
@@ -22,7 +22,7 @@ const images1 = [
     image: bidbuild
 },
 {
-    name: "Mernify",
+    name: "MERNify",
     desc: "",
     prize: "Not revealed",
     image: mernify
@@ -79,7 +79,7 @@ const images2 = [
     image: eafc
 },
 {
-    name: "SynPD",
+    name: "SYNPD",
     desc: "",
     prize: "Not revealed",
     image: synMun
@@ -97,7 +97,7 @@ const images3 = [
     name: "Trivia Verse",
     desc: "",
     prize: "Not revealed",
-    image: '' // Placeholder for missing data
+    image: triviaVerse
 },
 {
     name: "Lens Flare 3.0",
@@ -123,12 +123,12 @@ const images3 = [
     prize: "Not revealed",
     image: pixelFlow
 },
-{
-    name: "Sands of Time",
-    desc: "In future",
-    prize: "Not revealed",
-    image: '' // Placeholder for future image
-},
+// {
+//     name: "Sands of Time",
+//     desc: "In future",
+//     prize: "Not revealed",
+//     image: '' // Placeholder for future image
+// },
 
 ];
 

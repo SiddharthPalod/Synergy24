@@ -27,8 +27,8 @@ function Hero() {
           <div className="text-5xl md:text-8xl font-extrabold tracking-wide py-5">SYNERGY</div>
           <div className="text-base md:text-xl font-extrabold tracking-wide text-red-700 shadow-red-700">
             <div className='heading3 mb-4'>Dates will be announced soon</div>
-            {/* <div className='heading3 mb-4'>25-27 OCT 2024</div> */}
-            {/* <Timer /> */} 
+            <div className='heading3 mb-4'>8-10 OCT 2024</div>
+            <Timer /> 
           </div>
         </div>
         <motion.div

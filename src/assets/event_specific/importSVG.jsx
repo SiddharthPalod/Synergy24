@@ -38,6 +38,8 @@ export const importSVG = async (svgName) => {
         return import('./triviaVerse.webp');
       case 'valo':
         return import('./valo.webp');
+      case 'triviaVerse':
+        return import('./triviaVerse.webp');
       default:
         throw new Error(`Unknown SVG: ${svgName}`);
     }
