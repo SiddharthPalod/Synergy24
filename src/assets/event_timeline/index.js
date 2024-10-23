@@ -4,6 +4,7 @@ import cipherChase from './cipherChase.webp';
 import codeQuest2 from './codeQuest2.webp';
 import codm from './codm.webp';
 import cr from './cr.webp';
+import dapp from './dapp.webp';
 import deepReality from './deepReality.webp';
 import eafc from './eafc.webp';
 import lensFlare from './lensFlare.webp';
@@ -15,7 +16,8 @@ import pixelFlow from './pixelFlow.webp';
 import reelRiot from './reelRiot.webp';
 import synMun from './synMun.webp';
 import valo from './valo.webp';
-import dapp from './dapp.webp'
+import triviaVerse from './triviaVerse.webp';
+
 
 export {
     bgmi,
@@ -24,6 +26,7 @@ export {
     codeQuest2,
     codm,
     cr,
+    dapp,
     deepReality,
     eafc,
     lensFlare,
@@ -34,6 +37,6 @@ export {
     pixelFlow,
     reelRiot,
     synMun,
+    triviaVerse,
     valo,
-    dapp,
 };
