@@ -26,7 +26,7 @@ const media = [
     { name: 'Nanda', profile: Media.Nanda },
     { name: 'Shantanu', profile: Media.Shantanu },
     { name: 'Navish', profile: Media.Navish },
-    { name: 'Not Revealed', profile: Media.Lithin },
+    { name: 'Lithin', profile: Media.Lithin },
 ];
 
 const webdev = [
