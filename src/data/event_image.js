@@ -3,134 +3,135 @@ import {bgmi, bidbuild, cipherChase, codeQuest2, codm, cr, deepReality,
     pixelFlow, reelRiot, synMun, valo, dapp, triviaVerse} from '../assets/event_timeline';
 
 const images1 = [
-{
-    name: "Pitching Pixels 2.0",
-    desc: "",
-    prize: "Not revealed",
-    image: pitchingPixels
-},
-{
-    name: "Code Quest 3.0",
-    desc: "",
-    prize: "Not revealed",
-    image: codeQuest2
-},
-{
-    name: "Bid and Build",
-    desc: "",
-    prize: "Not revealed",
-    image: bidbuild
-},
-{
-    name: "MERNify",
-    desc: "",
-    prize: "Not revealed",
-    image: mernify
-},
-{
-    name: "Deep Reality",
-    desc: "",
-    prize: "Not revealed",
-    image: deepReality
-},
+    {
+        name: "Pitching Pixels 2.0",
+        timeline: "1-5 Nov + 10 Nov",  
+        prize: "10k | 6k | 4k",        
+        image: pitchingPixels
+    },
+    {
+        name: "Code Quest 3.0",
+        timeline: "16 Nov 8pm - 10pm",  
+        prize: "10k | 6k | 4k",         
+        image: codeQuest2
+    },
+    {
+        name: "Bid and Build",
+        timeline: "8 Nov 1pm onwards",  
+        prize: "10K",          
+        image: bidbuild
+    },
+    {
+        name: "MERNify",
+        timeline: "7 Nov 9pm - 8 Nov 9pm",  
+        prize: "14k | 9k | 7k",             
+        image: mernify
+    },
+    {
+        name: "Deep Reality",
+        timeline: "8 Nov 11:00am onwards",  
+        prize: "3k | 2k",                   
+        image: deepReality
+    }
 ];
+      
 
 const images2 = [
-{
-    name: "Dappathon",
-    desc: "",
-    prize: "Not revealed",
-    image: dapp
-},
-{
-    name: "Cipher Chase",
-    desc: "",
-    prize: "Not revealed",
-    image: cipherChase
-},
-{
-    name: "Valorant",
-    desc: "",
-    prize: "Not revealed",
-    image: valo
-},
-{
-    name: "BGMI",
-    desc: "",
-    prize: "Not revealed",
-    image: bgmi
-},
-{
-    name: "CODM",
-    desc: "",
-    prize: "Not revealed",
-    image: codm
-},
-{
-    name: "Clash Royale",
-    desc: "",
-    prize: "Not revealed",
-    image: cr
-},
-{
-    name: "EA FC",
-    desc: "",
-    prize: "Not revealed",
-    image: eafc
-},
-{
-    name: "SYNPD",
-    desc: "",
-    prize: "Not revealed",
-    image: synMun
-},
-{
-    name: "Lockout Duel 2.0",
-    desc: "",
-    prize: "Not revealed",
-    image: lockoutDuel
-},
-];
-
+    {
+      name: "Dappathon",
+      timeline: "9 Nov 9am-9pm",
+      prize: "$10k",
+      image: dapp
+    },
+    {
+      name: "Cipher Chase",
+      timeline: "9 Nov 9pm-10 Nov 9pm",
+      prize: "₹15k (7k | 5k | 3k)",
+      image: cipherChase
+    },
+    {
+      name: "Valorant",
+      timeline: "9 Nov 24",
+      prize: "5k",
+      image: valo
+    },
+    {
+      name: "BGMI",
+      timeline: "9 Nov 24",
+      prize: "5k",
+      image: bgmi
+    },
+    {
+      name: "CODM",
+      timeline: "9 Nov 24",
+      prize: "5k",
+      image: codm
+    },
+    {
+      name: "Clash Royale",
+      timeline: "9 Nov 24",
+      prize: "Not revealed",
+      image: cr
+    },
+    {
+      name: "EA FC",
+      timeline: "9 Nov 24",
+      prize: "Not revealed",
+      image: eafc
+    },
+    {
+      name: "SYNPD",
+      timeline: "9 Nov 24",
+      prize: "Not revealed",
+      image: synMun
+    },
+    {
+      name: "Lockout Duel 2.0",
+      timeline: "9 Nov 24",
+      prize: "Not revealed",
+      image: lockoutDuel
+    }
+  ];
+  
 const images3 = [
 {
     name: "Trivia Verse",
-    desc: "",
-    prize: "Not revealed",
+    timeline: "10 Nov",
+    prize: "₹10k (Prize distribution not decided)",
     image: triviaVerse
 },
 {
     name: "Lens Flare 3.0",
-    desc: "",
-    prize: "Not revealed",
+    timeline: "10 Nov",
+    prize: "₹15k (Prize distribution TBD)",
     image: lensFlare
 },
 {
     name: "ML-Fiesta",
-    desc: "",
-    prize: "Not revealed",
+    timeline: "Not specified",
+    prize: "₹60k (30k | 20k | 10k)",
     image: mlFiesta
 },
 {
     name: "Reel Riot",
-    desc: "",
-    prize: "Not revealed",
+    timeline: "8-10 Nov",
+    prize: "₹10k (6k | 3k | 1k)",
     image: reelRiot
 },
 {
     name: "Pixel Flow 2.0",
-    desc: "",
-    prize: "Not revealed",
+    timeline: "15-17 Nov",
+    prize: "₹20k (10k | 6k | 4k)",
     image: pixelFlow
-},
+}
 // {
-//     name: "Sands of Time",
-//     desc: "In future",
-//     prize: "Not revealed",
-//     image: '' // Placeholder for future image
-// },
-
+//   name: "Sands of Time",
+//   timeline: "In future",
+//   prize: "Not revealed",
+//   image: '' // Placeholder for future image
+// }
 ];
+  
 
 const dateSize = [0, images1.length, images1.length + images2.length];
 

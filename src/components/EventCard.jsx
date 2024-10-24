@@ -26,7 +26,7 @@ const EventCard = ({ data }) => {
           <img src={cardTexture} alt="Card Texture" className="w-full h-full absolute -z-10" />
           <h1 className="md:text-2xl text-sm font-bold px-4">{data.name}</h1>
           <p className='font-bold md:text-sm text-xs px-4'>Prize Pool: {data.prize}</p>
-          <p className='md:text-xs text-[0.5rem] px-4'>{data.desc}</p>
+          <p className='md:text-xs text-[0.5rem] px-4'>{data.timeline}</p>
         </div>
       </div>
     </motion.div>
