@@ -69,7 +69,7 @@ def get_event_details(event_name):
     return generate_event_details(row, index)
 
 # Example: Specify the event name you want to retrieve details for
-specific_event_name = "Pitching Pixels 2.0"  # Replace with the specific event name you want to fetch
+specific_event_name = "Sands of Time 2.0"  # Replace with the specific event name you want to fetch
 
 # Get the event details for the specific event
 event_details = get_event_details(specific_event_name)
