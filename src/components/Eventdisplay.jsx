@@ -6,7 +6,7 @@ const Eventdisplay = ({ name, desc, mode }) => {
   return (
     <div className='flex flex-col h-screen justify-center items-center gap-10 text-left'>
       <div className='text-4xl md:text-6xl font-bold text-white'>{name}</div>
-      <div className={`overflow-scroll border-2 ${borderColor} p-4 mx-16 md:mx-32 lg:mx-64 text-sm text-left  md:text-lg`}>{desc}</div>
+      <div className={`whitespace-pre-line overflow-scroll no-scrollbar border-2 ${borderColor} p-4 mx-16 md:mx-32 lg:mx-64 text-sm text-left md:text-lg`}>{desc}</div>
     </div>
   );
 };

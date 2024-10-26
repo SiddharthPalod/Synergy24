@@ -31,6 +31,9 @@
 .flexBetween {
   @apply flex items-center justify-between;
 }
+.no-scrollbar::-webkit-scrollbar {  
+  display: none;   
+} 
 }
 
 :root {

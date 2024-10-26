@@ -40,7 +40,7 @@ const images2 = [
     {
       name: "Dappathon",
       timeline: "9 Nov 9am-9pm",
-      prize: "$10k",
+      prize: "$1k",
       image: dapp
     },
     {
