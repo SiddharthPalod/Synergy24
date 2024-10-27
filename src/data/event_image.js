@@ -18,7 +18,7 @@ const images1 = [
     {
         name: "Bid and Build",
         timeline: "8 Nov 1pm onwards",  
-        prize: "10K",          
+        prize: "20K",          
         image: bidbuild
     },
     {
@@ -70,25 +70,25 @@ const images2 = [
     {
       name: "Clash Royale",
       timeline: "9 Nov 24",
-      prize: "Not revealed",
+      prize: "3k",
       image: cr
     },
     {
       name: "EA FC",
       timeline: "9 Nov 24",
-      prize: "Not revealed",
+      prize: "3k",
       image: eafc
     },
     {
       name: "SYNPD",
       timeline: "9 Nov 24",
-      prize: "Not revealed",
+      prize: "30k",
       image: synMun
     },
     {
       name: "Lockout Duel 2.0",
       timeline: "9 Nov 24",
-      prize: "Not revealed",
+      prize: "15k",
       image: lockoutDuel
     }
   ];

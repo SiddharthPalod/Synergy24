@@ -5,7 +5,7 @@ const events = [
     "name": "Pitching Pixels 2.0",
     "about": "Put your entrepreneurial skills to the test and compete with top rising talents in the business world. Pitch your game-changing ideas.",
     "rules": "Discuss the significance of the problem and proposed solution, the needs addressed, and the target market. Highlight the unique features that differentiate your solution from existing options. Lastly, outline the business model, including revenue generation, pricing strategy, and distribution channels.",
-    "impInfo": "\u2022 Mode: Online\n\u2022 Team Size: 1-3\n\u2022 Prize Pool: 20k\n\u2022 Prize Distribution: 10k | 6k | 4k\n\u2022 Timeline: 1-5 Nov + 10Nov\n\u2022 Registration Timeline: 5 Nov 24\n\u2022 Rounds: 2 Round\n",
+    "impInfo": "\u2022 Mode: Online\n\u2022 Team Size: 1-3\n\u2022 Prize Pool: 20k\n\u2022 Prize Distribution: 10k | 6k | 4k\n\u2022 Timeline: 1-5 Nov + 10Nov\n\u2022 Registration Timeline: 5 Nov 24\n\u2022 Rounds: 2 Rounds\n",
     "contact": "Ashok ECELL 79931 40049",
     "link": "https://unstop.com/competitions/pitching-pixels-20-synergy24-international-institute-of-information-technology-iiit-bangalore-1186674",
     imageName: 'pitchingPixels'
@@ -14,34 +14,34 @@ const events = [
     route: '/event_day1/2',
     "name": "Code Quest 3.0",
     "about": "Get ready for a 2-hour coding challenge that will put your algorithmic thinking, mathematical skills, and keen observation to the test! You'll face a set of diverse coding problems that require efficient solutions. The goal? Solve as many problems as you can, as fast as you can. The participant who solves the most problems in the least time wins. Are you up for the challenge?",
-    "rules": "- Platform: The contest will be hosted on Codeforces. All participants must have an active Codeforces account.\n- Duration & Problems: The contest will last for 2 hours, with 6-7 problems of varying difficulty, requiring strong algorithmic, mathematical, and observational skills.\n- Scoring & Penalties: The participant who solves the most problems wins. In case of a tie, the one who solves them in the least amount of time (including penalties) will be declared the winner. Each incorrect submission results in a 10-minute time penalty, added to the final submission time for that problem.\n- Fair Play & Eligibility: This is an individual competition. Collaboration, sharing solutions, or using any external assistance, including AI tools, is strictly prohibited. Plagiarism or misconduct will result in immediate disqualification.",
+    "rules": "- Platform: The contest will be hosted on unstop. All participants must have an active unstop account.\n- Duration & Problems: The contest will last for 2 hours, with 6-7 problems of varying difficulty, requiring strong algorithmic, mathematical, and observational skills.\n- Scoring & Penalties: The participant who solves the most problems wins. In case of a tie, the one who solves them in the least amount of time (including penalties) will be declared the winner. Each incorrect submission results in a 10-minute time penalty, added to the final submission time for that problem.\n- Fair Play & Eligibility: This is an individual competition. Collaboration, sharing solutions, or using any external assistance, including AI tools, is strictly prohibited. Plagiarism or misconduct will result in immediate disqualification.",
     "impInfo": "\u2022 Mode: Online\n\u2022 Team Size: Individual\n\u2022 Prize Pool: 20k\n\u2022 Prize Distribution: 10k | 6k | 4k\n\u2022 Timeline: 16 Nov 8pm - 10pm\n\u2022 Registration Timeline: 16 Nov\n\u2022 Rounds: 1 Round\n",
-    "contact": " ",
+    "contact": "Adithya Sunil (7356220104)\nSubhajeet Lahiri (7765819501)",
     "link": "https://unstop.com/o/sSk7tKP?lb=bw7NS5UF&utm_medium=Share&utm_source=shortUrl",
     imageName: 'codeQuest2'
   },
   {
-  route: '/event_day1/3',
-  "name": "Bid and Build",
-  "about": "Ever heard of an auction where you can select your startup team from? Here we are with an auction with a little bit of spice in it. This competition will refine your team-building skills and you will identify the various roles and power in the company. Get ready for the experience of auction and team building together.",
-  "rules": "Participants will be given a startup scenario around which you will have to build a startup team that suits the problem statement the best. Use your strategy to get the appropriate team member, and decide which skills are best apt for a position in the team. Build your startup team, defeat your rivals, and drive the performance of your team to the best.",
-  "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 3\n\u2022 Prize Pool: 10k\n\u2022 Prize Distribution: Not decided\n\u2022 Timeline: 8 Nov 1pm onwards\n\u2022 Registration Timeline: 8 Nov\n\u2022 Rounds: 1 Round ( If more than anticipated participants then Offline Quiz based knockout round)\n",
-  "contact": "Parthiv ECELL 9883015685",
-  "link": "https://forms.office.com/Pages/ResponsePage.aspx?id=IkyogrJHEka594YPOeubElw_fKQ11W5PkGb_NeEkHB1UNzNLNzBMWlZYVURKRDAwNFRGSE5aTE83Qy4u",
-  imageName: 'bidbuild'
+    route: '/event_day1/3',
+    "name": "Bid and Build",
+    "about": "Ever heard of an auction where you can select your startup team from? Here we are with an auction with a little bit of spice in it. This competition will refine your team-building skills and you will identify the various roles and power in the company. Get ready for the experience of auction and team building together.",
+    "rules": "Participants will be given a startup scenario around which you will have to build a startup team that suits the problem statement the best. Use your strategy to get the appropriate team member, and decide which skills are best apt for a position in the team. Build your startup team, defeat your rivals, and drive the performance of your team to the best.",
+    "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 3\n\u2022 Prize Pool: 20k\n\u2022 Prize Distribution: Not decided\n\u2022 Timeline: 8 Nov 1pm onwards\n\u2022 Registration Timeline: 8 Nov\n\u2022 Rounds: 1 Round ( If more than anticipated participants then Offline Quiz based knockout round)\n",
+    "contact": "Parthiv ECELL 9883015685",
+    "link": "https://forms.office.com/Pages/ResponsePage.aspx?id=IkyogrJHEka594YPOeubElw_fKQ11W5PkGb_NeEkHB1UNzNLNzBMWlZYVURKRDAwNFRGSE5aTE83Qy4u",
+    imageName: 'bidbuild'
   },
   {
     route: '/event_day1/4',
     "name": "MERNify",
-    "about": "MERNify is a 36hr full-stack development hackathon where the brightest engineering minds can come together to solve real-life problems that have a meaningful impact.  Judge of the Hackathon is 2007 - IIITB Alumnus, Imanpreet Singh Arora. He will also remotely mentor the participants via discord.",
-    "rules": "1. Eligibility\nParticipation is limited to IIIT-B students; no external participants are allowed. 2. Please refer to the detailed problem statement to understand the rules. The judges retain the right to withhold prizes if submissions do not meet the expected standards. 3. Participants can form teams of atmost 3 people. 4. This is a 36 -hr hackathon (12-hr extension will be there). 5. Libraries mentioned in the problem statement are necessary to use. 6. Participants need to stick with the theme of the hackathon. 7. Participants need to join the discord channel and need to give their 12-hr updates. Mentor will be their to guide the participants through the hackathon. 8. It is compulsory to use version control throughout the hackathon and not making only one commit at the end (commit history will be checked). ",
-    "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 1-3\n\u2022 Prize Pool: 30k\n\u2022 Prize Distribution: 14 K | 9K | 7K\n\u2022 Timeline: 7Nov 9pm - 8Nov 9pm\n\u2022 Registration Timeline: 7 November\n\u2022 Rounds: 1 round\n",
-    "contact": "Assign Volunteer",
+    "about": "MERNify is a 24hr full-stack development hackathon where the brightest engineering minds can come together to solve real-life problems that have a meaningful impact.  Judge of the Hackathon is 2007 - IIITB Alumnus, Imanpreet Singh Arora. He will also remotely mentor the participants via discord.",
+    "rules": "1. Eligibility\nParticipation is limited to IIIT-B students; no external participants are allowed. 2. Please refer to the detailed problem statement to understand the rules. The judges retain the right to withhold prizes if submissions do not meet the expected standards. 3. Participants can form teams of atmost 3 people. 4. This is a 24-hr hackathon (12-hr extension is possible). 5. Libraries mentioned in the problem statement are necessary to use. 6. Participants need to stick with the theme of the hackathon. 7. Participants need to join the discord channel and need to give their 12-hr updates. Mentor will be their to guide the participants through the hackathon. 8. It is compulsory to use version control throughout the hackathon and not making only one commit at the end (commit history will be checked). ",
+    "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 1-3\n\u2022 Prize Pool: 30k\n\u2022 Prize Distribution: 14 K | 9K | 7K\n\u2022 Timeline: 7Nov 8pm - 8Nov 8pm\n\u2022 Registration Timeline: 7 November\n\u2022 Rounds: 1 round\n",
+    "contact": "Subhranil Basak  | A Bansal 8451979163",
     "link": "https://forms.office.com/Pages/ResponsePage.aspx?id=IkyogrJHEka594YPOeubElw_fKQ11W5PkGb_NeEkHB1UQzFUVzRIT083TTZLRlpTT1VUNzY5MllDQy4u",
     imageName: 'mernify'
   },
   {
-    route: '/event_day1/5', 
+    route: '/event_day1/5',
     "name": "Deep Reality",
     "about": "Can you identify whether a image,video,audio is real or generated by AI? If yes, then this event is for you",
     "rules": "1. Eligibility\nParticipation is limited to IIIT-B students; no external participants are allowed. 2. Its a point based system per round,, 30 seconds per image,video clip,audio file with reasoning behind their choices , Each team can discuss answers, but only one team member should submit the final answer.Use of phones or external devices is strictly prohibited. Judges' decision on disputed images is final",
@@ -106,7 +106,7 @@ const events = [
     route: '/event_day2/6',
     "name": "Clash Royale",
     "about": "Clash Royale is your opportunity to showcase your skills, experience the thrill of the game, and enjoy an action-packed gaming showdown!",
-    "rules": "The tournament will last for 4 hours and will involve normal matches in Clash Royale. Matches will be played according to the standard rules of the game. Cheating is not allowed and may result in disqualification. The player with the most trophies at the end of the tournament will be declared the winner and will receive a prize.",
+    "rules": "The tournament will last for 4 hours and will involve normal matches in Clash Royale. Matches will be played according to the standard rules of the game. Cheating is not allowed and may result in disqualification. The player with the most wins at the end of the tournament will be declared the winner and will receive a prize.",
     "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 1\n\u2022 Prize Pool: 3k\n\u2022 Prize Distribution: not decided\n\u2022 Timeline: 9 Nov 24\n\u2022 Registration Timeline: 9 Nov 24\n\u2022 Rounds: Subject to Participation (2 Rounds)\n",
     "contact": "Shreyas S 9663712696",
     "link": "https://docs.google.com/forms/d/e/1FAIpQLSdP-gbtPomh9V-tg-3OH2eXdgFWh1u3WHUuN6Q6F8ApFVAOYQ/viewform?usp=sf_link",
@@ -138,7 +138,7 @@ const events = [
     "about": "Think you're fast at solving coding problems? Prove it in Lockout Duel 2.0 -  a knockout challenge where you face off one-on-one, and the first to solve wins. The last one standing takes it all!",
     "rules": "- Participation is limited to IIIT-B students no external participants are allowed\n-Participants are randomly paired to compete in one-on-one duels. \n- The winner of each duel advances, while the loser is eliminated.\n- The tournament continues until only one participant remains, who is declared the champion. The final opponent takes the second prize.\n- For each duel, a toss determines who picks either the problem category or the difficulty rating. The other participant selects the remaining option.\n- A random unsolved problem is selected by the platform, based on the chosen category and rating.\n- Both participants race to solve the problem on Codeforces. The first to receive an \"Accepted\" status wins.\n- All participants must have active Codeforces accounts.",
     "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: Individual\n\u2022 Prize Pool: 15k\n\u2022 Prize Distribution: not decided\n\u2022 Timeline: 9 Nov 7pm onwards\n\u2022 Registration Timeline: 9 Nov\n\u2022 Rounds: Knock-out tournament\n",
-    "contact": " ",
+    "contact": "Shlok Agrawal (9829986134)\nNaitik Solanki(7016740700)",
     "link": "https://forms.office.com/Pages/ResponsePage.aspx?id=IkyogrJHEka594YPOeubElw_fKQ11W5PkGb_NeEkHB1UMjVCUEZQRFQ2NFhNMU81MVI2WjhQQktPVy4u",
     imageName: 'lockoutDuel'
   },
@@ -147,11 +147,11 @@ const events = [
   {
     route: '/event_day3/1',
     "name": "Trivia Verse",
-    "about": "2 Round Tech Quiz. Teams of 3. A (likely written/online) preliminary round followed by the Finals. Quiz rounds with engaging formats and interesting questions (no obscure facts)! ",
+    "about": "2 Round Tech Quiz. Teams of 2-3. A (likely written/online) preliminary round followed by the Finals. Quiz rounds with engaging formats and interesting questions (no obscure facts)! ",
     "rules": "1. Preliminary Round - Written or Online, for participants must be present at the venue. 2. Use of phones or external devices is strictly prohibited. 3. The Quizmaster's decision is final",
     "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 2-3\n\u2022 Prize Pool: \u20b910k\n\u2022 Prize Distribution: Not decided\n\u2022 Timeline: 10 Nov\n\u2022 Registration Timeline: 10 Nov\n\u2022 Rounds: 2 Rounds\n",
     "contact": "Siddharth (9845084898)",
-    "link": "https://forms.office.com/Pages/ResponsePage.aspx?id=IkyogrJHEka594YPOeubElw_fKQ11W5PkGb_NeEkHB1URE1XVU0xV01PNUNCRFQ5QjFVOVJHOU0zNi4u",
+    "link": "https://unstop.com/quiz/triviaverse-tech-quiz-synergy24-international-institute-of-information-technology-iiit-bangalore-1199676",
     imageName: 'triviaVerse' // Placeholder for future image
   },
   {
@@ -169,7 +169,7 @@ const events = [
     "name": "ML-Fiesta",
     "about": "ML-Fiesta is our AI/ML hackathon where the brightest engineering minds can come together to solve real-life problems that have a meaningful impact.",
     "rules": "Please refer to the detailed problem statement to understand the rules. The judges retain the right to withhold prizes if submissions do not meet the expected standards",
-    "impInfo": "\u2022 Mode: Online\n\u2022 Team Size: 1-3\n\u2022 Prize Pool: 60k\n\u2022 Prize Distribution: 30k | 20k | 10k\n\u2022 Timeline: Not specified\n\u2022 Registration Timeline: Not specified\n\u2022 Rounds: Not specified\n",
+    "impInfo": "\u2022 Mode: Online\n\u2022 Team Size: 1-3\n\u2022 Prize Pool: 60k\n\u2022 Prize Distribution: 30k | 20k | 10k\n\u2022 Timeline: 30 Oct - 13 Nov\n\u2022 Registration Timeline: till 13 Nov\n\u2022 Rounds: 1 Round\n",
     "contact": "Will reveal soon",
     "link": "https://unstop.com/o/P7UzoJx?lb=bw7NS5UF&utm_medium=Share&utm_source=shortUrl",
     imageName: 'mlFiesta'
@@ -180,19 +180,19 @@ const events = [
     "about": "Reel Riot is an exciting competition designed exclusively for IIIT-B students as part of the Synergy Tech Fest. It offers students the chance to showcase their creativity and videography skills by capturing the essence of the three-day tech fest through short, engaging reels. Participants will document key events, workshops, and vibrant moments, crafting dynamic reels that highlight the spirit and excitement of the tech fest.",
     "rules": "1. Eligibility\nParticipation is limited to IIIT-B students; no external participants are allowed.\n2. Participation Format\nIndividual Participation Only: Team participation is not allowed. Each participant must register individually.\n3. Theme and Content\nAll reels must document the Synergy Tech Fest events over the three-day period.\nReels should creatively capture the essence of the tech fest, including workshops, competitions, key moments, and the overall atmosphere.\nStock footage can be used to enhance the storytelling but must complement original footage shot during the event.\nEach participant must submit only one reel capturing the highlights of the entire Synergy Tech Fest.\n4. Reel Specifications\nDuration: Reels must be between 15 seconds and 1 minute long.\nFormat: Vertical video, 9:16 aspect ratio (preferred format for reels).\nContent: All footage must be original and shot during Synergy Tech Fest, except for limited stock footage.\n5. Submission Guidelines\nOnline Drive Submission: Participants must submit their reels via a Google Drive link provided by the organizers. No Instagram uploads are allowed.\nEnsure that the reel is correctly labeled with the participant's name and the title of the reel.\n6. Deadline\nAll submissions must be uploaded to the provided Online Drive by 8 PM on the final day of the tech fest.\n7. Judging Criteria\nReels will be judged based on:\nCreativity and Storytelling (40%): How well the reel captures the fest's energy and tells a compelling narrative.\nCinematography and Editing (30%): Visual quality, smoothness of transitions, and overall technical execution.\nRelevance (30%): How well the reel reflects the key events and moments of Synergy Tech Fest.\n9. Code of Conduct\nRespect: Participants must respect the privacy of other attendees and secure permission before filming individuals.\nInappropriate Content: Any offensive, vulgar, or inappropriate content will result in immediate disqualification.\nFair Play: All submissions must be original work created during the fest, with only limited use of stock footage allowed.\n10. Disqualification\nParticipants may be disqualified for:\nFailure to adhere to the submission guidelines or deadlines.\nUse of excessive stock footage or pre-recorded footage unrelated to the fest.\nViolation of the event's code of conduct.",
     "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: Individual\n\u2022 Prize Pool: 10k\n\u2022 Prize Distribution: 6k | 3k | 1k\n\u2022 Timeline: 8 to 10 november\n\u2022 Registration Timeline: 7 November\n\u2022 Rounds: 1 round\n",
-    "contact": "no volunteer needed",
+    "contact": " ",
     "link": "https://forms.office.com/r/eUyQWv26a3",
     imageName: 'reelRiot'
   },
   {
-  route: '/event_day3/5',
-  "name": "Pixel Flow 2.0",
-  "about": "This 48-hour UI/UX design competition will test your creativity, technical prowess, and problem-solving skills in digital design. Participants will be tasked with tackling a unique design problem or theme centered around emerging technologies, user-centered innovation, or futuristic trends. You aim to craft a visually stunning and intuitively seamless user interface (UI) and user experience (UX) design that solves the problem and redefines creativity and functionality. ",
-  "rules": "Each participant can submit only one solution. The submission must include the following :\nLink(view-only) to the Figma file\nLink to Figma Prototype\nA PDF file containing a description of your solution and the UX techniques used\n(Optional) You can provide a video demonstrating your prototype",
-  "impInfo": "\u2022 Mode: Online\n\u2022 Team Size: 1-2\n\u2022 Prize Pool: 20k\n\u2022 Prize Distribution: 10k | 6k | 4k\n\u2022 Timeline: 15-17 November\n\u2022 Registration Timeline: 16 Nov 24\n\u2022 Rounds: 1 Round\n",
-  "contact": "Siddharth Palod 7878099721",
-  "link": "https://unstop.com/hackathons/pixel-flow-20-synergy24-international-institute-of-information-technology-iiit-bangalore-1179218",
-  imageName: 'pixelFlow'
+    route: '/event_day3/5',
+    "name": "Pixel Flow 2.0",
+    "about": "This 48-hour UI/UX design competition will test your creativity, technical prowess, and problem-solving skills in digital design. Participants will be tasked with tackling a unique design problem or theme centered around emerging technologies, user-centered innovation, or futuristic trends. You aim to craft a visually stunning and intuitively seamless user interface (UI) and user experience (UX) design that solves the problem and redefines creativity and functionality. ",
+    "rules": "Each participant can submit only one solution. The submission must include the following :\nLink(view-only) to the Figma file\nLink to Figma Prototype\nA PDF file containing a description of your solution and the UX techniques used\n(Optional) You can provide a video demonstrating your prototype",
+    "impInfo": "\u2022 Mode: Online\n\u2022 Team Size: 1-2\n\u2022 Prize Pool: 20k\n\u2022 Prize Distribution: 10k | 6k | 4k\n\u2022 Timeline: 15-17 November\n\u2022 Registration Timeline: 16 Nov 24\n\u2022 Rounds: 1 Round\n",
+    "contact": "Siddharth Palod 7878099721",
+    "link": "https://unstop.com/hackathons/pixel-flow-20-synergy24-international-institute-of-information-technology-iiit-bangalore-1179218",
+    imageName: 'pixelFlow'
   },
   {
     route: '/event_day3/6',

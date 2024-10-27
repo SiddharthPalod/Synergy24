@@ -34,8 +34,6 @@ export const importSVG = async (svgName) => {
         return import('./reelRiot.webp');
       case 'synMun':
         return import('./synMun.webp');
-      case 'triviaVerse':
-        return import('./triviaVerse.webp');
       case 'valo':
         return import('./valo.webp');
       case 'triviaVerse':
