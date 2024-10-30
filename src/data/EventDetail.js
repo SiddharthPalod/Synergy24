@@ -79,7 +79,7 @@ const events = [
     "rules": "All Weapons / Agents / Abilities are allowed unless currently disabled in Ranked Mode. Make sure you have the latest version of the game before the day of the match. No delays will be allowed on the day of the match. All matches except the Finals (and Semi-Finals depending on the total number of teams) will be knockouts.",
     "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 5\n\u2022 Prize Pool: 5k\n\u2022 Prize Distribution: not decided\n\u2022 Timeline: 9 Nov 24\n\u2022 Registration Timeline: 9 Nov 24\n\u2022 Rounds: Subject to Participation (2 Rounds)\n",
     "contact": "Assign Volunteer",
-    "link": "Create form",
+    "link": "https://forms.gle/5H8PfDWcwocpMgoDA",
     imageName: 'valo'
   },
   {
@@ -89,7 +89,7 @@ const events = [
     "rules": "You are only allowed to play mobile phones. (No tablets and No controllers allowed) Cheating, aim assists, emulation, wall hacks or any tampering with the BGMI client will lead to instaban from the match and tournament. Scoring will be based on position and kills If there are more registrations than expected, we'll have a prelims of Battle Royale",
     "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 4\n\u2022 Prize Pool: 5k\n\u2022 Prize Distribution: not decided\n\u2022 Timeline: 9 Nov 24\n\u2022 Registration Timeline: 9 Nov 24\n\u2022 Rounds: Subject to Participation (2 Rounds)\n",
     "contact": "Assign Volunteer",
-    "link": "Create form",
+    "link": "https://forms.gle/5mCH7rBUghxHeY9XA",
     imageName: 'bgmi'
   },
   {
@@ -99,7 +99,7 @@ const events = [
     "rules": "If the team isn't filled on start time, the team has to play handicapped. You are only allowed to play on mobile phones. (No tablets and No controllers allowed) Cheating, aim assists, emulation, wall hacks, or any tampering with the CODM client will lead to an instaban from the match and tournament. Scoring will be based on position and kills. If there are more registrations than expected, we'll have a prelims of Battle Royale.",
     "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 5\n\u2022 Prize Pool: 5k\n\u2022 Prize Distribution: not decided\n\u2022 Timeline: 9 Nov 24\n\u2022 Registration Timeline: 9 Nov 24\n\u2022 Rounds: Subject to Participation (2 Rounds)\n",
     "contact": "Assign Volunteer",
-    "link": "Create form",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSeAoT75O_RgV-IYAebIKs9GIvTeR4UetrIqGNS0WalaV090MQ/viewform?usp=sf_link",
     imageName: 'codm'
   },
   {
@@ -119,7 +119,7 @@ const events = [
     "rules": "You cannot select any fictional or All-Star teams. Any regular-season teams, as installed with the original game, can be selected. Each round will be a knock-out round. Each player can bring his/her own controller. If a controller is defective, a Player can pause the game on the approval of their opponent and notify the referee. Both players can select the same team (e.g. Barcelona). In that case, the \u2018away\u2019 player will have to pick Away Jersey for that team. In general, \u2018away\u2019 players are responsible for picking the jersey that does not resemble the home team jersey. In case of a dispute, the selection of home and away side will be decided via a coin toss. In case of a tie, the match will go to extra time (Classic for knockout rounds), then penalties. Players will not be allowed to switch/sub with some other player. In case of any dispute, the word of the referee will be final. Half Length: 4 minutes (Until Quarter-Final), 6 minutes (Semi-Finals(2 legs, away goals rules apply) and Finals). There will be a third place competition (one leg only). Match type: Classic Kick-Off Fifa Trainer: Off Difficulty Level: Legendary Game Speed: Normal All Formations, Tactics should be decided before the starting of the match (2 mins will be provided for the same). If you want to pause mid-game, you have to ask your opponent first and you can pause only on his/her approval. If players are not present for their match in the allotted time without any justification for the same, they will be considered for disqualification. Rules are subject to change, and any change will be at the discretion of the Organizers.",
     "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 1-2\n\u2022 Prize Pool: 3k\n\u2022 Prize Distribution: not decided\n\u2022 Timeline: 9 Nov 24\n\u2022 Registration Timeline: 9 Nov 24\n\u2022 Rounds: Subject to Participation (2 Rounds)\n",
     "contact": "Assign Volunteer",
-    "link": "Create form",
+    "link": "https://docs.google.com/forms/d/12wbSKu_fqb4dml2qhSGko5mj8QoVtubKkbOy95tfUR0/edit?usp=drivesdk",
     imageName: 'eafc'
   },
   {
