@@ -27,7 +27,7 @@ const events = [
     "rules": "Participants will be given a startup scenario around which you will have to build a startup team that suits the problem statement the best. Use your strategy to get the appropriate team member, and decide which skills are best apt for a position in the team. Build your startup team, defeat your rivals, and drive the performance of your team to the best.",
     "impInfo": "\u2022 Mode: Offline\n\u2022 Team Size: 3\n\u2022 Prize Pool: 20k\n\u2022 Prize Distribution: Not decided\n\u2022 Timeline: 8 Nov 1pm onwards\n\u2022 Registration Timeline: 8 Nov\n\u2022 Rounds: 1 Round ( If more than anticipated participants then Offline Quiz based knockout round)\n",
     "contact": "Parthiv ECELL 9883015685",
-    "link": "https://forms.office.com/Pages/ResponsePage.aspx?id=IkyogrJHEka594YPOeubElw_fKQ11W5PkGb_NeEkHB1UNzNLNzBMWlZYVURKRDAwNFRGSE5aTE83Qy4u",
+    "link": "https://unstop.com/o/5XselW8?lb=JZ5h6co3&utm_medium=Share&utm_source=shortUrl",
     imageName: 'bidbuild'
   },
   {
