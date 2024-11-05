@@ -97,7 +97,7 @@ const EventPage = () => {
           whileTap={{ scale: 0.95 }}
           onClick={() => window.open(event.link, '_blank')}
         >
-          Register
+          {event.name === "Lense Flare 3.0" ? "Submit" : "Register"}
         </motion.button>
 
 

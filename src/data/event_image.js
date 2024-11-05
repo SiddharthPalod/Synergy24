@@ -32,6 +32,12 @@ const images1 = [
         timeline: "8 Nov 11:00am onwards",  
         prize: "3k | 2k",                   
         image: deepReality
+    },
+    {
+      name: "Lockout Duel 2.0",
+      timeline: "9 Nov 24",
+      prize: "15k",
+      image: lockoutDuel
     }
 ];
       
@@ -84,12 +90,6 @@ const images2 = [
       timeline: "9 Nov 24",
       prize: "30k",
       image: synMun
-    },
-    {
-      name: "Lockout Duel 2.0",
-      timeline: "9 Nov 24",
-      prize: "15k",
-      image: lockoutDuel
     }
   ];
   
@@ -97,18 +97,18 @@ const images3 = [
 {
     name: "Trivia Verse",
     timeline: "10 Nov",
-    prize: "₹10k (Prize distribution not decided)",
+    prize: "₹10k",
     image: triviaVerse
 },
 {
     name: "Lens Flare 3.0",
     timeline: "10 Nov",
-    prize: "₹15k (Prize distribution TBD)",
+    prize: "₹15k",
     image: lensFlare
 },
 {
     name: "ML-Fiesta",
-    timeline: "Not specified",
+    timeline: "30 Oct - 13 Nov",
     prize: "₹60k (30k | 20k | 10k)",
     image: mlFiesta
 },
